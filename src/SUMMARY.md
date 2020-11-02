@@ -2,5 +2,9 @@
 
 - [Setup](./setup/introduction.md)
     - [Inviting the bot](./setup/invite.md)
-    - [Bot configuration](./setup/configuration.md)
-    - [Bot configuration: Web dashboard](./setup/dashboard.md)
+    - [Bot Configuration](./setup/configuration.md)
+    - [Bot Configuration: Web dashboard](./setup/dashboard.md)
+    - [Bot Configuration: Easy mode](./setup/easy.md)
+    - [Bot Configuration: Auto mode](./setup/auto.md)
+    - [Bot Configuration: Individual settings](./setup/individual.md)
+    - [Reaction Panels](./setup/panels.md)
