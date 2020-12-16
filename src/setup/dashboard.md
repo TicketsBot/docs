@@ -3,7 +3,7 @@ Firstly, head over to the dashboard at [panel.ticketsbot.net](https://panel.tick
 
 ![Login](/img/login.webp)
 
-A list of servers which you are an administrator in (`t!addadmin`) and the bot has been invited to should show up. Simply click on the server you want to configure. If the server does not show up, ensure that you are either the owner of the server or have been added as an administrator by the owner using `t!addadmin @YourUsername` and log out and log back into the dashboard.
+A list of servers which you are an administrator in (`/addadmin`) and the bot has been invited to should show up. Simply click on the server you want to configure. If the server does not show up, ensure that you are either the owner of the server or have been added as an administrator by the owner using `/addadmin @YourUsername` and log out and log back into the dashboard.
 
 ![Server list](/img/server_list.webp)
 
@@ -15,7 +15,7 @@ You'll first want to pay attention to the main **Settings** card. You can edit t
 
 Prefix
 -
-This is the set of characters that comes before a command, i.e. if you set the prefix to `t!`, you will run commands using `t!new`, `t!help`, etc. Do **not** include the command here.
+This is the set of characters that comes before a command when not using slash commands, i.e. if you set the prefix to `t!`, you will run commands using `t!new`, `t!help`, etc. Do **not** include the command here.
 
 Ticket Limit
 -
@@ -27,7 +27,7 @@ We do not impose any limits on the amount of tickets that a server can have open
 
 Ping @everyone On Ticket Open
 -
-This option specifies whether Tickets will ping @everyone when a ticket is opened **using `t!new`**. This does **not** affect tickets created using reaction panels, as they have their own, more in depth settings.
+This option specifies whether Tickets will ping @everyone when a ticket is opened **using `/new`**. This does **not** affect tickets created using reaction panels, as they have their own, more in depth settings.
 
 Note: This option may be removed in the future.
 
@@ -43,7 +43,7 @@ This option specifies whether Tickets will send a confirmation message when clos
 
 Simply click the ✅ reaction to confirm you want to close the ticket.
 
-Close confirmation does not apply to tickets closed using `t!close`.
+Close confirmation does not apply to tickets closed using `/close`.
 
 Welcome Message
 -
@@ -53,19 +53,9 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 Note, the message must be at most 1024 characters due to Discord limitations.
 
-You may use the following placeholders in the message:
-|Placeholder|Description  |
-|--|--|
-%user% | Mentions the user 
-%username% | Display the user's name 
-%ticket_id% | Display the ticket's numeric ID
-%open_tickets% | Display the number of open tickets in the server
-%total_tickets% | Display the number of tickets that have ever been opened in the server
-%user_open_tickets% | Display the number of tickets that the user currently has open in the server
-%ticket_limit% | Display the server's ticket limit
-%channel% | Mention the channel
+You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).
 
-The title of the embed will either be based off of the subject provided by the user when using `t!new [Subject]`, or the title of the reaction panel if used. We are unable to get a subject from the user when using reaction panels currently, however, this will be possible in a future update of Discord.
+The title of the embed will either be based off of the subject provided by the user when using `/new [Subject]`, or the title of the reaction panel if used. We are unable to get a subject from the user when using reaction panels currently, however, this will be possible in a future update of Discord.
 
 Archive Channel
 -
