@@ -8,3 +8,4 @@
     - [Bot Configuration: Auto mode](./setup/auto.md)
     - [Bot Configuration: Individual settings](./setup/individual.md)
     - [Reaction Panels](./setup/panels.md)
+    - [Welcome Message Placeholders](./setup/placeholders.md)
