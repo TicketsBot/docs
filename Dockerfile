@@ -14,4 +14,4 @@ RUN mdbook build
 # nginx container
 FROM nginx:mainline
 
-COPY --from=0 /tmp/build/book/* /usr/share/nginx/html
+COPY --from=0 /tmp/build/book/* /usr/share/nginx/html/
