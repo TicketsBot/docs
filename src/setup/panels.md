@@ -43,7 +43,7 @@ This is the channel category that the ticket channel will be created under. If y
 Reaction panels use different channel categories to the one you configured on the main settings tab to allow for distinction when using multiple reaction panels.
 
 ## Reaction Emote
-This is the emoji that users will click in order to open a ticket. You can either paste the emoji directly into the box, for example, `📩`, or use the Discord name, for example, `enveloper_with_arrow` (colons are optional).
+This is the emoji that users will click in order to open a ticket. You can either paste the emoji directly into the box, for example, `📩`, or use the Discord name, for example, `envelope_with_arrow` (colons are optional).
 
 Custom emojis are not supported at this time, however, they will be in the future.
 
