@@ -25,6 +25,10 @@ You can include the following placeholders in your welcome message to display yo
 
 You can view more placeholders by clicking [here](./placeholders.md).
 
+### Per User
+If you are a [premium](https://ticketsbot.net/premium) subscriber, you can use `/stats user` to view the average rating on tickets claimed by a specific user:
+![/stats user](/img/feedback_user.webp)
+
 ### Dashboard
 Coming Soon
 
