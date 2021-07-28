@@ -29,8 +29,9 @@ You can view more placeholders by clicking [here](./placeholders.md).
 If you are a [premium](https://ticketsbot.net/premium) subscriber, you can use `/stats user` to view the average rating on tickets claimed by a specific user:
 ![/stats user](/img/feedback_user.webp)
 
-### Dashboard
-Coming Soon
-
 ### Viewing Individual Ticket Ratings
-Coming soon
+You can view the ratings of individual tickets by navigating to the transcripts page on the dashboard. Next to each ticket, the rating given by the user will be shown:
+![Individual ratings](/img/feedback_transcripts.webp)
+
+### Dashboard
+More dashboard options will be implemented when Discord adds forms & prompts.
