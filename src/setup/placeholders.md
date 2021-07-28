@@ -11,3 +11,5 @@ You may use the following placeholders in welcome messages:
 | %user_open_tickets% | Display the number of tickets that the user currently has open in the server |
 | %ticket_limit% | Display the server's ticket limit   |
 | %channel% | Mention the channel |
+| %rating_count% | Amount of feedback ratings you have received |
+| %average_rating% | Your average feedback rating |
