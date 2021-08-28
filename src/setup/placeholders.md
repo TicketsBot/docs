@@ -13,3 +13,6 @@ You may use the following placeholders in welcome messages:
 | %channel% | Mention the channel |
 | %rating_count% | Amount of feedback ratings you have received |
 | %average_rating% | Your average feedback rating |
+| %time% | The current time |
+| %date% | Today's date |
+| %datetime% | The current date and time |
