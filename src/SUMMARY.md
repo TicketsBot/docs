@@ -9,4 +9,5 @@
     - [Bot Configuration: Individual settings](./setup/individual.md)
     - [Reaction Panels](./setup/panels.md)
     - [User Feedback](./setup/feedback.md)
+    - [Language Customisation](./setup/languages.md)
     - [Welcome Message Placeholders](./setup/placeholders.md)
