@@ -16,3 +16,5 @@
     - [Close Requests](./features/close-requests.md)
     - [Language Customisation](./setup/languages.md)
     - [User Feedback](./setup/feedback.md)
+- [Premium](./premium/introduction.md)
+    - [Whitelabel Setup Guide](./premium/whitelabel-setup-guide.md)
