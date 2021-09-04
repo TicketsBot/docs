@@ -32,7 +32,7 @@ You'll then be presented with new settings. Apply the following:
 - Set `Public Bot` to **off**
 - Set `Requires OAuth2 Code Grant` to **off** (default)
 - Set `Presence Intent` to **off** (default)
--**HIGHLY IMPORTANT, DO NOT SKIP:** Set `Server Members Intent` to **on**
+- **HIGHLY IMPORTANT, DO NOT SKIP:** Set `Server Members Intent` to **on**
 
 You can ignore the `Bot Permissions` section, it is simply a calculator and does not affect anything.
 
