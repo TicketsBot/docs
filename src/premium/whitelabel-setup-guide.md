@@ -72,9 +72,12 @@ Upon clicking the button, you will be taken to the normal bot invite page - sele
 
 ![Invite](/img/whitelabel/invite.webp)
 
-**We are not finished yet.** Although the bot may be in your server, no commands or buttons will work until you complete all steps of the guide.
+### We are not finished yet. Although the bot may be in your server, no commands or buttons will work until you complete all steps of the guide.
 
 ## Configuring Interactions
+
+### Do not skip this step. Your bot will not work if you skip it. 
+
 It is very important that you follow these instructions in the exact order they are written.
  
 Head back to the `General Information` tab of the Discord developer portal. Locate the `Public Key` field, and press copy:
