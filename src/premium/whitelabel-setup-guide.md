@@ -37,7 +37,7 @@ You'll then be presented with new settings. Apply the following:
 
 You can ignore the `Bot Permissions` section, it is simply a calculator and does not affect anything.
 
-Please ensure that you have enabled `Server Members Intent`: without it, **your bot will not start**.
+Please ensure that you have enabled `Server Members Intent` and `Message Content Intent`: without them, **your bot will not start**.
 
 Finally, ensure to save your changes.
 
