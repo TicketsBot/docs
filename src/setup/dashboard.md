@@ -91,5 +91,4 @@ We now have the basic configuration completed!
 
 You may wish to configure the following options next:
 - [Reaction Panels](./panels.md)
-- [Claim Settings](./claims.md)
-- [Auto Close](./auto_close.md)
+- [Claim Settings](./claiming.md)
