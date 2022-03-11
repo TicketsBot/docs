@@ -33,10 +33,11 @@ You'll then be presented with new settings. Apply the following:
 - Set `Requires OAuth2 Code Grant` to **off** (default)
 - Set `Presence Intent` to **off** (default)
 - **HIGHLY IMPORTANT, DO NOT SKIP:** Set `Server Members Intent` to **on**
+- **HIGHLY IMPORTANT, DO NOT SKIP:** Set `Message Content Intent` to **on**
 
 You can ignore the `Bot Permissions` section, it is simply a calculator and does not affect anything.
 
-Please ensure that you have enabled `Server Members Intent`: without it, **your bot will not start**.
+Please ensure that you have enabled `Server Members Intent` and `Message Content Intent`: without them, **your bot will not start**.
 
 Finally, ensure to save your changes.
 
@@ -94,7 +95,7 @@ Next, highlight the text in the `Interactions Endpoint URL` field, just above th
 
 Paste the URL into the corresponding `Interactions Endpoint URL` field and press save changes.
 
-![Copy Interaction URL](/img/whitelabel/interaction_url_copy.webp)
+![Paste Interaction URL](/img/whitelabel/interaction_url_paste.webp)
 
 If you are presented with the error `interactions_endpoint_url: The specified interactions endpoint URL could not be verified`, this means that you have either copied the interaction URL incorrectly, or not submitted the public key to our dashboard yet.
 
