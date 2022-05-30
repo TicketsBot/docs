@@ -16,3 +16,6 @@ You may use the following placeholders in welcome messages:
 | %time% | The current time |
 | %date% | Today's date |
 | %datetime% | The current date and time |
+| %first_response_time_weekly% | Staff average first response time to tickets this week |
+| %first_response_time_monthly% | Staff average first response time to tickets this month |
+| %first_response_time_all_time% | Staff average first response time to tickets since the beginning |
