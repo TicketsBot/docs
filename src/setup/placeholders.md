@@ -1,9 +1,10 @@
-# Welcome Message Placeholders
-You may use the following placeholders in welcome messages:
+# Placeholders
 
-|Placeholder|Description |  
+**Welcome Message Placeholders**
+
+|Placeholder|Description|  
 |--|--|  
-| %user% | Mentions the user |
+| %user% | Mention the user |
 | %username% | Display the user's name |
 | %ticket_id% | Display the ticket's numeric ID |
 | %open_tickets% | Display the number of open tickets in the server |
@@ -19,3 +20,10 @@ You may use the following placeholders in welcome messages:
 | %first_response_time_weekly% | Staff average first response time to tickets this week |
 | %first_response_time_monthly% | Staff average first response time to tickets this month |
 | %first_response_time_all_time% | Staff average first response time to tickets since the beginning |
+
+**Custom Naming Scheme Placeholders**
+
+|Placeholder|Description|
+|--|--|
+| %id% | The unique ticket id# |
+| %username% | Display the user's name |

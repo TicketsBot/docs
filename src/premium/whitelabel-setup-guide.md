@@ -1,12 +1,12 @@
 # Whitelabel Setup Guide
-Thanks for purchasing whitelabel and support us!
+Thanks for purchasing whitelabel and supporting us!
 
-Please follow this guide **very carefully**, if you skip a single step, nothing will work - you've been warned. The process should not take more than 10 minutes, and will only need to be done once.
+Please follow this guide **very carefully**. If you skip a single step, nothing will work - you've been warned. The process should not take more than 10 minutes, and will only need to be done once.
 
 ## Link Patreon Account
 If you haven't done so already, you'll need to link your Patreon and Discord accounts on [this page](https://www.patreon.com/settings/apps).
 
-Patreon have a longer guide on how to do this [here](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role).
+Patreon has a longer guide on how to do this [here](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role).
 
 ## Create A Bot
 Next, we'll need to create your custom bot that Tickets will run under.
@@ -48,7 +48,7 @@ Your settings should look as follows:
 ## Starting The Bot
 Next, head over to the [Tickets dashboard]( https://panel.ticketsbot.net/whitelabel) and select the `Whitelabel` tab on the sidebar.
 
-Firstly, we have to submit the bot's token. This is like a password to the bot. **Never send this token to anyone, even in our support server.**
+First, we have to submit the bot's token. This is like a password to the bot. **Never send this token to anyone, even in our support server.**
 
 Head back over to the bot tab on the Discord developer portal and copy the token:
 
@@ -60,7 +60,7 @@ Then, paste it into the `Bot Token` field and press `Submit`:
 
 You will then be presented with a message saying that the bot is now online.
 
-If you receive an error, make sure that you copied the token fully (not the client secret). Additionally, refresh the page and check the `Error Log` table for any errors.
+If you receive an error, make sure that you copied the token fully (not the client secret.) Additionally, refresh the page and check the `Error Log` table for any errors.
 
 ## Inviting The Bot To Your Server
 Before you can invite the bot to your server, you must kick the main `Tickets#6981` bot from your server. It is **extremely** important that you do this **before** inviting your custom bot to your server. If you do not do this, you risk data loss.
@@ -73,7 +73,7 @@ Upon clicking the button, you will be taken to the normal bot invite page - sele
 
 ![Invite](/img/whitelabel/invite.webp)
 
-### We are not finished yet. Although the bot may be in your server, no commands or buttons will work until you complete all steps of the guide.
+### `We are not finished yet. Although the bot may be in your server, no commands or buttons will work until you complete ALL steps of the guide.`
 
 ## Configuring Interactions
 
@@ -100,18 +100,19 @@ Paste the URL into the corresponding `Interactions Endpoint URL` field and press
 If you are presented with the error `interactions_endpoint_url: The specified interactions endpoint URL could not be verified`, this means that you have either copied the interaction URL incorrectly, or not submitted the public key to our dashboard yet.
 
 ## Creating Slash Commands
-The last mandatory step is to create the commands on your bot.
+
+### The last mandatory step is to create the commands on your bot.
 
 Simply head back to our dashboard and press the `Create Slash Commands` button. Note that they may take up to an hour to show in your server.
 
 ![Create Commands](/img/whitelabel/create_commands.webp)
 
-And you're done! There are a few more optional steps if you wish to take them.
+And you're done! There are a few more **optional** steps if you wish to take them.
 
 ## Optional: Custom Status
 You can optionally change your custom bot's status. Simply enter the new status on the dashboard and press `Submit`.
 
-Note that only `Listening` statuses are supported currently - support for other types will be added in the future.
+`Playing`, `Listening`, and `Watching` are all currently available. 
 
 ![Custom Status](/img/whitelabel/custom_status.webp)
 
