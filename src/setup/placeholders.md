@@ -25,6 +25,13 @@ You may use the following placeholders in welcome messages:
 All integration placeholders are automatically active, you do not have to do anything special apart from include them in your welcome message.
 
 ### Bloxlink
+These placeholders are available if the user has linked their Roblox account via [Bloxlink](https://blox.link)
+
 |Placeholder|Description |
 |--|--|
-| %roblox_username% | The user's Roblox username, if linked via [Bloxlink](https://blox.link) |
+| %roblox_username% | The user's Roblox username |
+| %roblox_id% | The user's numeric Roblox ID |
+| %roblox_display_name% | The user's Roblox display name |
+| %roblox_profile_url% | The full clickable URL to the user's Roblox profile |
+| %roblox_account_age% | How long ago the user's Roblox account was created, e.g. `7 months ago` |
+| %roblox_account_created% | The date on which the user's Roblox account was created, e.g. `7 January 2019` |
