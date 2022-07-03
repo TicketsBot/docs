@@ -1,8 +1,9 @@
 # Welcome Message Placeholders
 You may use the following placeholders in welcome messages:
 
-|Placeholder|Description |  
-|--|--|  
+## Built-in
+|Placeholder|Description |
+|--|--|
 | %user% | Mentions the user |
 | %username% | Display the user's name |
 | %ticket_id% | Display the ticket's numeric ID |
@@ -19,3 +20,11 @@ You may use the following placeholders in welcome messages:
 | %first_response_time_weekly% | Staff average first response time to tickets this week |
 | %first_response_time_monthly% | Staff average first response time to tickets this month |
 | %first_response_time_all_time% | Staff average first response time to tickets since the beginning |
+
+## Integrations
+All integration placeholders are automatically active, you do not have to do anything special apart from include them in your welcome message.
+
+### Bloxlink
+|Placeholder|Description |
+|--|--|
+| %roblox_username% | The user's Roblox username, if linked via [Bloxlink](https://blox.link) |
