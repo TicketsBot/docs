@@ -120,4 +120,7 @@ On the `General Information` tab of the Discord developer portal, you may have n
 
 You can enter our policies here to inform users of how their data may be used.
 
+Terms Of Service: https://ticketsbot.net/terms-of-service
+Privacy Policy: https://ticketsbot.net/privacy
+
 ![Policies](/img/whitelabel/policies.webp)
