@@ -1,5 +1,5 @@
 # Whitelabel Setup Guide
-Thanks for purchasing whitelabel and support us!
+Thanks for purchasing whitelabel and supporting us!
 
 Please follow this guide **very carefully**, if you skip a single step, nothing will work - you've been warned. The process should not take more than 10 minutes, and will only need to be done once.
 
