@@ -131,7 +131,7 @@ We can then insert our placeholders into the welcome message, like so:
 ![Example Embed](/img/integrations/example_embed,webp)
 
 Let's test it out!
-![Example Success](/img/integrations/example_success,webp)
+![Example Success](/img/integrations/example_success.webp)
 
 As you can see, the placeholders have successfully been fetched from the web server, and replaced with the provided values!
 
