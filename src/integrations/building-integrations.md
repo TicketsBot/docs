@@ -63,13 +63,16 @@ All data types are supported, except for JSON arrays. You should pre-process you
 Now that we have somewhere to pull data from, we can start linking it up with Tickets!
 
 First, head over to our [dashboard](https://panel.ticketsbot.net), select any server, and then navigate to the Integrations tab in the navbar. From there, you will be able to press the "Create Integration" button:
+
 ![Navigation](/img/integrations/navbar.webp)
 
 Then, fill out some basic information about your integration: its name, description, and optionally logo image URL and privacy policy. It is recommended to set a privacy policy if you are creating a public integration. You will be able to see a preview on the right-hand side as you type. Once completed, press the "Continue" button.
+
 ![Metadata](/img/integrations/metadata.webp)
 
 ### HTTP Request
 You will be then be prompted to enter information about how the integration works. Lets focus on the "HTTP Request" section first:
+
 ![Request URL](/img/integrations/request_url.webp)
 
 Upon a ticket being opened, we will send a HTTP request to the provided request URL, to which you should respond with a JSON object that we can extract values of your choice from. You can use the placeholder `%user_id%` in the URL, which will be replaced with the user ID of the user who opened the ticket. In our case, we set this to `https://example.ticketsbot.net/lookup?user=%user_id%`.
@@ -80,12 +83,15 @@ Requests can either be sent as GET or POST requests. In the future, we may add a
 It is recommended that you add some kind of authentication to your API- or if you are making an integration that requests a public API, you will definitely be required to use authentication. Thankfully, you can add HTTP headers to your integration requests!
 
 Let's say our example app now requires an API key to be sent in the `Authorization` header. Simply press the `Add Additional Header` button, and enter the header name and value, like so:
+
 ![Headers](/img/integrations/headers.webp)
 
 This functionality can be further extended by using secrets: You can ask users to supply their *own* secret values, such as API keys, when adding your integration to their server. For example, we may want users to register an application on our own site, generate them an API key, and make them input it when adding your integration. Let's take a look at an example:
+
 ![Completed](/img/integrations/request_completed.webp)
 
 We have created a secret, called `api_key`, which we are able to use in either headers, or the URL itself, via `%api_key%`. When a user adds your integration to their server, they will be prompted to enter their API key:
+
 ![Secrets example](/img/integrations/secrets_example.webp)
 
 
@@ -112,12 +118,14 @@ The JSON path is simply the path of keys to access a value. Nested objects can b
 For example, the path `online_status` would yield `Online`, and `user.username` would yield `Ryan`.
 
 Let's take a look at how we'd register these with the integration settings:
-![Placeholder Creation](/img/integrations/placeholder_creation,webp)
+
+![Placeholder Creation](/img/integrations/placeholder_creation.webp)
 
 It should be obvious to see how the values are mapped. Note, your placeholder itself can be named completely separate from the JSON path.
 
 You have now successfully configured your first integration! All that is left is to press the final "Create" button. After doing this, you should be taken to a preview page for your integration:
-![Integration Preview](/img/integrations/integration_preview,webp)
+
+![Integration Preview](/img/integrations/integration_preview.webp)
 
 You can view the list of available placeholders on the right-hand side of the page. Don't forget to *activate* the integration in your server, by pressing the "Add to server" button!
 
@@ -125,12 +133,15 @@ You can view the list of available placeholders on the right-hand side of the pa
 Now that we have created out integration and added it to our server (don't forget this part), we can implement the placeholders!
 
 You'll need to head over to the "Reaction Panels" tab of the dashboard for your server, press edit on a panel, and open the welcome message editor:
+
 ![Welcome Message Editor](/img/integrations/edit_welcome_message.webp)
 
 We can then insert our placeholders into the welcome message, like so:
-![Example Embed](/img/integrations/example_embed,webp)
+
+![Example Embed](/img/integrations/example_embed.webp)
 
 Let's test it out!
+
 ![Example Success](/img/integrations/example_success.webp)
 
 As you can see, the placeholders have successfully been fetched from the web server, and replaced with the provided values!
