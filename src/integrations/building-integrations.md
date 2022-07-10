@@ -1,5 +1,5 @@
 # Building Integrations
-Integrations let you include information .
+Integrations let you include information retrieved from your own web server, or 3rd party APIs, directly in the welcome messages of your tickets!
 
 In this guide, we'll build an integration from scratch together, from start to finish. 
 
