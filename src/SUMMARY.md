@@ -19,5 +19,6 @@
     - [User Feedback](./setup/feedback.md)
 - [Integrations]()
     - [Building Integrations](./integrations/building-integrations.md)
+    - [FiveM Integration](./integrations/fivem.md)
 - [Premium](./premium/introduction.md)
     - [Whitelabel Setup Guide](./premium/whitelabel-setup-guide.md)
