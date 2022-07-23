@@ -20,5 +20,6 @@
 - [Integrations]()
     - [Building Integrations](./integrations/building-integrations.md)
     - [FiveM Integration](./integrations/fivem.md)
+    - [Chargebee Integration](./integrations/chargebee.md)
 - [Premium](./premium/introduction.md)
     - [Whitelabel Setup Guide](./premium/whitelabel-setup-guide.md)

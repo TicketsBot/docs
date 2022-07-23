@@ -14,7 +14,7 @@ The integration is now active in your server! The last step is to insert the pla
 ![Welcome message editor](/img/integrations/edit_welcome_message.webp)
 
 Then, customise the welcome message to your liking:
-![Welcome message editor](/img/integrations/placeholders.webp)
+![Welcome message editor](/img/integrations/fivem/placeholders.webp)
 
 The placeholders provided by the FiveM integration are:
 - %fivem_id%
