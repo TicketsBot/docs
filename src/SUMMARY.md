@@ -19,6 +19,7 @@
     - [User Feedback](./setup/feedback.md)
 - [Integrations]()
     - [Building Integrations](./integrations/building-integrations.md)
+    - [A Note on Cloudflare Workers](./integrations/cloudflare-workers.md)
     - [FiveM Integration](./integrations/fivem.md)
     - [Chargebee Integration](./integrations/chargebee.md)
 - [Premium](./premium/introduction.md)
