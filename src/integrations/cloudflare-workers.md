@@ -8,13 +8,14 @@ For example, FiveM servers return data in the following format, which posed an i
 	"Data": {
 		...
 		"players": [
-		...,
-		{
-			"id": 100,
-			"identifiers": ["discord:111111111111111111", "license:abcdefg"],
-			"name": "Username",
-		},
-		...]
+			...,
+			{
+				"id": 100,
+				"identifiers": ["discord:111111111111111111", "license:abcdefg"],
+				"name": "Username",
+			},
+			...
+		]
 	}
 }
 ```
