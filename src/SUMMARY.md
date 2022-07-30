@@ -3,6 +3,7 @@
 <!-- MAKE SETUP JUST THE BASICS TO GET TICKETING SYSTEM UP AND RUNNING -->
 - [Setup](./setup/introduction.md)
     - [Inviting the bot](./setup/invite.md)
+    - [Language Customisation](./setup/languages.md)
     - [Bot Configuration](./setup/configuration.md)
         - [Bot Configuration: Web dashboard](./setup/dashboard.md)
         - [Bot Configuration: Easy mode](./setup/easy.md)
@@ -28,7 +29,11 @@
         - [Multi-Panels](./features/multipanels.md)
     - [Forms](./features/forms.md)
     - [Staff Teams](./dashboard/staff-teams.md)
-    - [Integrations](./features/integrations.md)
+    - [Integrations]()
+        - [Building Integrations](./integrations/building-integrations.md)
+        - [A Note on Cloudflare Workers](./integrations/cloudflare-workers.md)
+        - [FiveM Integration](./integrations/fivem.md)
+        - [Chargebee Integration](./integrations/chargebee.md)
     - [Tickets](./dashboard/tickets.md)
     - [Blacklist](./dashboard/blacklist.md)
     - [Tags](./dashboard/tags.md)
@@ -44,6 +49,7 @@
     - [Multi-Panels](./features/multipanels.md)
     - [Start Ticket from Message](./features/start-ticket-from-message.md)
     - [Close Requests](./features/close-requests.md)
+    - [User Feedback](./setup/feedback.md)
     
 - [Miscellaneous](./miscellaneous/introduction.md)
     - [Official Tickets Links](./miscellaneous/official-links.md)
