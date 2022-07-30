@@ -1,14 +1,15 @@
 # Bot Configuration: Web Dashboard
-Firstly, head over to the dashboard at [panel.ticketsbot.net](https://panel.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
+First, head over to the dashboard at [panel.ticketsbot.net](https://panel.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
 
 ![Login](/img/login.webp)
 
-A list of servers which you are an administrator in (`/addadmin`) and the bot has been invited to should show up. Simply click on the server you want to configure. If the server does not show up, ensure that you are either the owner of the server or have been added as an administrator by the owner using `/addadmin @YourUsername` and log out of, then back into, the dashboard.
+A list of servers which you are a Tickets bot administrator (`/addadmin`) and the bot has been invited to should show up. Simply click on the server you want to configure. If the server does not show up, ensure that you are either the owner of the server or have been added as a Tickets bot administrator by the owner using `/addadmin @YourUsername` and log out of, then back into, the dashboard.
 
 ![Server list](/img/server_list.webp)
 
 You'll be taken to the settings page as follows:
 
+<!-- UPDATE PHOTO-->
 ![Settings page](/img/settings.webp)
 
 You'll first want to pay attention to the main **Settings** card. Here you can edit the following settings:
@@ -55,7 +56,7 @@ Archive Channel
 -
 When Tickets are closed, a transcript will automatically be recorded, encrypted, and stored in cloud based object storage - with no user interaction required.
 
-A message similar to the one following will also be sent to your archive channel to notify you the ticket was closed and provide you with a link to the dashboard to view the archive:
+A message, similar to the one following, will also be sent to your archive channel to notify you the ticket was closed and provide you with a link to the dashboard to view the archive:
 
 ![Archive message](/img/archive_message.webp)
 

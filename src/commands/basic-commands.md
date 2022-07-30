@@ -4,14 +4,14 @@
 |--|--|  
 | /about | Information about the bot |
 | /add (user) | Add a user to an existing ticket |
-| /addadmin (user_or_role) | Grants a user or role admin priveledges of the bot |
-| /addsupport (user_or_role) | Adds a user or role as a support representative |
+| [/addadmin](./add-admin-support.md) (user_or_role) | Grants a user or role admin priveledges of the bot |
+| [/addsupport](./add-admin-support.md) (user_or_role) | Adds a user or role as a support representative |
 | /autoclose configure | Edit autoclose related settings |
 | /autoclose exclude | Excludes the current ticket from being automatically closed |
 | /blacklist (user_or_role) | Toggles whether users are allowed to interact with the bot |
 | /claim | Assigns a single staff member to the current ticket |
 | /close (reason) | Closes the current ticket |
-| /closerequest (close_delay) (reason) | Sends a message asking the ticket opener to approve or deny closing of the ticket |
+| [/closerequest](./features/close-requests.md) (close_delay) (reason) | Sends a message asking the ticket opener to approve or deny closing of the ticket |
 | /help | Displays a list of commands |
 | /invite | Provides an invite link for the bot |
 | /language (language) | Changes the language the bot messages are displayed in |

@@ -14,9 +14,9 @@
 | %channel% | Mention the channel |
 | %rating_count% | Amount of feedback ratings you have received |
 | %average_rating% | Your average feedback rating |
-| %time% | The current time |
-| %date% | Today's date |
-| %datetime% | The current date and time |
+| %time% | Display the current time |
+| %date% | Display today's date |
+| %datetime% | Display the current date and time |
 | %first_response_time_weekly% | Staff average first response time to tickets this week |
 | %first_response_time_monthly% | Staff average first response time to tickets this month |
 | %first_response_time_all_time% | Staff average first response time to tickets since the beginning |
@@ -25,5 +25,5 @@
 
 |Placeholder|Description|
 |--|--|
-| %id% | The unique ticket id# |
+| %id% | Display the unique ticket id# |
 | %username% | Display the user's name |

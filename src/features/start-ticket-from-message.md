@@ -16,7 +16,7 @@ A new ticket will be created with the user who sent the message. The bot will se
 ### Permission Level
 To limit usage of this functionality to staff members: visit the [web dashboard](/setup/dashboard.md), select your server, and take a look at the `Settings` page.
 
-You will see a dropdown menu labelled `Required Permission Level` under the `Start Ticket From Message Settings` heading. Adjust the setting to your wish, and then press the `Submit` button.
+You will see a dropdown menu labelled `Required Permission Level` under the `Context Menu (Start Ticket Dropdown)` heading. Adjust the setting to your wish, and then press the `Submit` button.
 
 ![Context menu permission level](/img/context_menu_permission_level.webp)
 

@@ -6,6 +6,7 @@ Tickets allows your users to provide feedback on the support they received:
 In order for users to be asked to rate your service, you must first enable feedback on the [web dashboard](./dashboard.md). 
 
 Select your server and open the settings page:
+<!-- UPDATE THIS PHOTO -->
 ![Enable feedback](/img/enable_feedback.webp)
 
 Check the `Enable User Feedback` box and press submit.
@@ -33,5 +34,6 @@ You can include the following placeholders in your welcome message to display yo
 You can view the ratings of individual tickets by navigating to the transcripts page on the dashboard. Next to each ticket, the rating given by the user will be shown:
 ![Individual ratings](/img/feedback_transcripts.webp)
 
+<!-- DO WE NEED THIS?? -->
 ### Dashboard
 More dashboard options will be implemented when Discord adds forms & prompts.

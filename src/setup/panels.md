@@ -44,7 +44,7 @@ Reaction panels use different channel categories to the one you configured on th
 ## Form
 Assign a form to your panel. Learn more about forms [here](../features/forms.md).
 
-## Button Style
+## Button Colour
 Choose the colour of the button.
 
 ## Button Text
@@ -58,31 +58,31 @@ Custom emojis from your server can be used by clicking the toggle to show green 
 ## Advanced Settings
 Upon clicking `Toggle Advanced Settings`, you'll have extra fields displayed to you:
 - Welcome Message
+- Naming Scheme
 - Mention on Open
 - Support Teams
 - Large Image URL
 - Small Image URL
-- Naming Scheme
 
 ## Welcome Message
 You may override the server's welcome message on a per-panel basis using this field. If left blank, the welcome message from the main settings page will be used.
 
 You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).
 
+## Naming Scheme
+This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the Settings portion of the Dashboard. If it's flipped to grey, you can setup a custom scheme. You may make use of some placeholders in your custom naming scheme. You can view a list of placeholders [here](./placeholders.md).
+
 ## Mention On Open
 You may specify a list of roles and users to mention after the ticket is opened here. Note that the message mentioning these roles and users will be deleted instantly, however the mention will still persist until they open the channel. This will not work for those who have their notification settings on mute.
 
 ## Support Teams
-Input which of your Support Teams you would like to handle this particular type of ticket.
+Input which of your Staff Teams you would like to handle this particular type of ticket.
 
 ## Large Image URL
 Input a URL link to an image here, it will be shown underneath the welcome message.
 
 ## Small Image URL
-Input a URL link to an image here, it will be shown to the right of teh welcome message.
-
-## Naming Scheme
-This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the Settings portion of the Dashboard. If it's flipped to grey, you can setup a custom scheme. You may make use of some placeholders in your custom naming scheme. You can view a list of placeholders [here](./placeholders.md).
+Input a URL link to an image here, it will be shown to the right of the welcome message.
 
 ## Completion
 Once you have configured the reaction panel to your liking, click `Submit` and the panel will be created in your server. You should be shown a success message in the bottom right hand corner of your screen if successful, or an appropriate error message if you made a mistake:
