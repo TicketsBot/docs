@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome Message Placeholders
 You may use the following placeholders in welcome messages:
 
@@ -14,9 +15,9 @@ You may use the following placeholders in welcome messages:
 | %channel% | Mention the channel |
 | %rating_count% | Amount of feedback ratings you have received |
 | %average_rating% | Your average feedback rating |
-| %time% | The current time |
-| %date% | Today's date |
-| %datetime% | The current date and time |
+| %time% | Display the current time |
+| %date% | Display today's date |
+| %datetime% | Display the current date and time |
 | %first_response_time_weekly% | Staff average first response time to tickets this week |
 | %first_response_time_monthly% | Staff average first response time to tickets this month |
 | %first_response_time_all_time% | Staff average first response time to tickets since the beginning |
@@ -35,3 +36,10 @@ These placeholders are available if the user has linked their Roblox account via
 | %roblox_profile_url% | The full clickable URL to the user's Roblox profile |
 | %roblox_account_age% | How long ago the user's Roblox account was created, e.g. `7 months ago` |
 | %roblox_account_created% | The date on which the user's Roblox account was created, e.g. `7 January 2019` |
+
+# Custom Naming Scheme Placeholders
+
+|Placeholder|Description|
+|--|--|
+| %id% | Display the unique ticket id# |
+| %username% | Display the user's name |
