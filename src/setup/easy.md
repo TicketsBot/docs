@@ -10,7 +10,7 @@ You'll first be asked to specify a prefix for the bot to use:
 
 ![Prefix](/img/ez_prefix.webp)
 
-Simply respond with the prefix you want the bot to use (when not using slash commands). For example, responding with `t!` would mean that you execute commands using `t!new`, `t!help`, etc. Ensure you do **not** include the command in the prefix.
+Simply respond with the prefix you want the bot to use (when not using slash commands.) For example, responding with `t!` would mean that you execute commands using `t!new`, `t!help`, etc. Ensure you do **not** include the command in the prefix.
 
 A definition is provided in the bot's message, or is also available in the [dashboard guide](./dashboard.md#prefix).
 
@@ -26,6 +26,6 @@ You can cancel the process using `/cancel`.
 
 Once complete, the bot will send the following message:
 
-![Ez complete](/img/ez_complete.webp)
+![EZ complete](/img/ez_complete.webp)
 
-Additional settings are available on the [dashboard](./dashboard.md), such as [reaction panels](./panels.md). It is advised that you read these guides next.
+Additional settings are available on the [dashboard](./dashboard.md), including [reaction panels](./panels.md). It is advised that you read these guides next.

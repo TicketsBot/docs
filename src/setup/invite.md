@@ -10,4 +10,4 @@ Upon pressing continue, you'll be presented with a list of permissions Tickets i
 
 ![Authorize permissions](/img/invite-2.webp)
 
-Discord will then present you with a screen telling you've authorised the bot: it's now in your server! Let's start configuring the bot: [Bot Configuration](./configuration.md)
+Discord will then present you with a screen stating that you've authorised the bot: it's now in your server! Let's start configuring the bot: [Bot Configuration](./configuration.md)

@@ -1,17 +1,18 @@
 # Bot Configuration: Web Dashboard
-Firstly, head over to the dashboard at [panel.ticketsbot.net](https://panel.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
+First, head over to the dashboard at [panel.ticketsbot.net](https://panel.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
 
 ![Login](/img/login.webp)
 
-A list of servers which you are an administrator in (`/addadmin`) and the bot has been invited to should show up. Simply click on the server you want to configure. If the server does not show up, ensure that you are either the owner of the server or have been added as an administrator by the owner using `/addadmin @YourUsername` and log out and log back into the dashboard.
+A list of servers which you are a Tickets bot administrator (`/addadmin`) and the bot has been invited to should show up. Simply click on the server you want to configure. If the server does not show up, ensure that you are either the owner of the server or have been added as a Tickets bot administrator by the owner using `/addadmin @YourUsername` and log out of, then back into, the dashboard.
 
 ![Server list](/img/server_list.webp)
 
 You'll be taken to the settings page as follows:
 
+<!-- UPDATE PHOTO-->
 ![Settings page](/img/settings.webp)
 
-You'll first want to pay attention to the main **Settings** card. You can edit the following settings here:
+You'll first want to pay attention to the main **Settings** card. Here you can edit the following settings:
 
 Prefix
 -
@@ -25,25 +26,19 @@ For example, if you set this value to 1, a user will be able to open and close t
 
 We do not impose any limits on the amount of tickets that a server can have open at once. However, please note that Discord only permits a total of 500 channels to exist in a server at once, and 50 channels to exist at once in a category. This means that you can move tickets to a new category if one gets filled, however you are limited to 500 channels overall by Discord.
 
-Ping @everyone On Ticket Open
--
-This option specifies whether Tickets will ping @everyone when a ticket is opened **using `/new`**. This does **not** affect tickets created using reaction panels, as they have their own, more in depth settings.
-
-Note: This option may be removed in the future.
-
 Allow Users To Close Tickets
 -
 This option specifies whether users are allowed to close their own tickets. If unchecked, only your support staff & administrators will be able to close them.
 
 Ticket Close Confirmation
 -
-This option specifies whether Tickets will send a confirmation message when closing a ticket via the 🔒 reaction. If checked, Tickets will send the following message after reacting:
+This option specifies whether Tickets will send a confirmation message when closing a ticket via the 🔒`close` reaction. If checked, Tickets will send the following message after reacting:
 
 ![Ticket close confirmation](/img/ticket_close_confirmation.webp)
 
-Simply click the ✅ reaction to confirm you want to close the ticket.
+Simply click the blue ✔️`close` reaction to confirm you want to close the ticket.
 
-Close confirmation does not apply to tickets closed using `/close`.
+Close confirmation does not apply to tickets closed using the slash command `/close`.
 
 Welcome Message
 -
@@ -51,7 +46,7 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 ![Welcome message](/img/welcome_message.webp)
 
-Note, the message must be at most 1024 characters due to Discord limitations.
+Note, the message has a maximum limit of 1024 characters due to Discord limitations.
 
 You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).
 
@@ -59,15 +54,15 @@ The title of the embed will either be based off of the subject provided by the u
 
 Archive Channel
 -
-When Tickets are closed, a transcript will automatically be recorded, encrypted and stored in cloud based object storage, with no user interaction required.
+When Tickets are closed, a transcript will automatically be recorded, encrypted, and stored in cloud based object storage - with no user interaction required.
 
-A message similar to the one following will also be sent to your archive channel to notify you the ticket was closed and provide you with a link to the dashboard to view the archive:
+A message, similar to the one following, will also be sent to your archive channel to notify you the ticket was closed and provide you with a link to the dashboard to view the archive:
 
 ![Archive message](/img/archive_message.webp)
 
 This message will also be sent via direct messages to the user who opened the ticket. It is not possible to disable this functionality since we believe it is important for transparency purposes that users are also able to access the transcripts.
 
-If you have privacy concerns, please join our [support server](https://discord.gg/VtV3rSk) to enquire. Unfortunately we unable to answer any questions regarding your user data off-platform in order to verify your identity.
+If you have privacy concerns, please join our [support server](https://discord.gg/VtV3rSk) to enquire. Unfortunately we are unable to answer any questions regarding your user data off-platform in order to verify your identity.
 
 Channel Category
 -
@@ -77,9 +72,13 @@ Your tickets will be grouped together under the category as follows:
 
 ![Tickets](/img/channels.webp)
 
+Overflow Category
+-
+Discord has an imposed limitation that each Channel Category can only hold 50 channels. Once you hit this limit, Tickets bot will fail to be able to open more ticket channels for you and your server members. To help rectify this, you can set an Overflow Category. This is a category that the ticket channels will open in once your selected Channel Category has hit the Discord imposed limit.
+
 Naming Scheme
 -
-Defines how the ticket channels should be named. Currently, the 2 options are by ticket ID (`#ticket-1`) or by username (`#ticket-name`). However, custom naming schemes will be implemented in the future
+Defines how the ticket channels should be named. Currently, the 2 options are by ticket ID (`#ticket-1`) or by username (`#ticket-name`). You can define more custom naming schemes in the settings of individual reaction panels, instead of this overall setting.
 
 Submission
 -
