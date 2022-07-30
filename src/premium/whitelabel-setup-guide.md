@@ -1,5 +1,5 @@
 # Whitelabel Setup Guide
-Thanks for purchasing whitelabel and support us!
+Thanks for purchasing whitelabel and supporting us!
 
 Please follow this guide **very carefully**, if you skip a single step, nothing will work - you've been warned. The process should not take more than 10 minutes, and will only need to be done once.
 
@@ -119,5 +119,8 @@ Note that only `Listening` statuses are supported currently - support for other 
 On the `General Information` tab of the Discord developer portal, you may have noticed `Terms Of Service URL` and `Privacy Policy URL` fields.
 
 You can enter our policies here to inform users of how their data may be used.
+
+Terms Of Service: https://ticketsbot.net/terms-of-service
+Privacy Policy: https://ticketsbot.net/privacy
 
 ![Policies](/img/whitelabel/policies.webp)
