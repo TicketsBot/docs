@@ -29,7 +29,7 @@
         - [Multi-Panels](./features/multipanels.md)
     - [Forms](./features/forms.md)
     - [Staff Teams](./dashboard/staff-teams.md)
-    - [Integrations]()
+    - [Integrations](./integrations/introduction.md)
         - [Building Integrations](./integrations/building-integrations.md)
         - [A Note on Cloudflare Workers](./integrations/cloudflare-workers.md)
         - [FiveM Integration](./integrations/fivem.md)

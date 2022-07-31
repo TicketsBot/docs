@@ -39,6 +39,8 @@ Save your changes, and then test it out!
 ## Multipanels
 When using [multi-panels](./multipanels) (different types of tickets combined into 1 message with multiple buttons), the form shown to the user is the form associated to the panel of the button clicked.
 
-## Limitations
-- Maximum of 5 questions per form (Discord-imposed limit)
-- Currently only supports text input type - no radio buttons, or checkboxes (Discord-imposed limit)
+## Limitations (Discord imposed)
+- Maximum of 5 questions per form
+- Currently only supports text input type - no radio buttons, or checkboxes
+- Form Labels have a max length of 45 characters
+- Form Placeholders have a max length of 100 characters
