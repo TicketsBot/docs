@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome Message Placeholders
 You may use the following placeholders in welcome messages:
 
