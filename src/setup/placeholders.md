@@ -43,3 +43,4 @@ These placeholders are available if the user has linked their Roblox account via
 |--|--|
 | %id% | Display the unique ticket id# |
 | %username% | Display the user's name |
+| %nickname% | Display the user's nickname |
