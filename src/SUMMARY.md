@@ -37,7 +37,6 @@
     - [Tickets](./dashboard/tickets.md)
     - [Blacklist](./dashboard/blacklist.md)
     - [Tags](./dashboard/tags.md)
-    - [Customize Appearance](./dashboard/customize-appearance.md)
 
 - [Premium](./premium/introduction.md)
     - [Premium and Whitelabel Perks](./premium/perks.md)

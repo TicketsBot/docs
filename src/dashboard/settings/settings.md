@@ -12,65 +12,106 @@ Upon opening the `Settings` menu, you'll have extra fields displayed to you (wit
 ![Settings card](/img/settings_card.webp)
 
 ## General
-<!--UPDATE-->
-In order to create a reaction panel, you'll need to head over to the web dashboard and select your server. If you're unfamiliar with how to do that, read our [guide on the web dashboard here](./dashboard.md).
+Here you will find settings that affect the entire server, not just a specific reaction panel.
 
-Once on your server's main settings page, select `Reaction Panels` in the top navigation bar:
+#### Prefix
+You can change the command prefix from the default of `t!`.  Discord will be forcing all bots to only use slash commands very soon, so don't get used to controlling the bot this way.
 
-![Navbar](/img/panels_navbar.webp)
+#### Per User Simultaneous Ticket Limit
+Set the max amount of tickets a server member can have open (staff is immune to this limit.) This is total nuber of tickets per member, not per panel.
 
-You'll be taken to the reaction panel configuration page which looks as follows:
+#### Language
+Set the bot's language. Find out more about this [here](../../setup/languages.md).
 
-![Reaction panel page](/img/panels_page.webp)
+#### Allow Users To Close Tickets
+Toggle whether the server members that open tickets can close them (or if that will be a permission only given to staff.)
 
-You'll want to focus on the *left* side of the screen. The right side are settings for combining different panels into a single message.
+#### Ticket Close Confirmation
+Toggle whether a second confirmation is required to close a ticket.
+<!-- INSERT PHOTO OF CLOSE CONFIRMATION -->
 
-Draw your attention to the `Create A Panel` card. You'll configure the panel's appearance here:
-
-![Panel card](/img/panel_card.webp)
+#### Enable User Feedback
+Toggle whether a user can provide a star rating feedback on the service they received. See more about this [here](../../setup/feedback.md)
 
 ## Tickets
-<!--UPDATE-->
-The panel title is the bold text at the *top* of the embed. The panel title has a maximum length of 255 characters. By default, we set the value to `Open a ticket!`
+This section has a few more optional settings.
+
+#### Archive Channel
+Select if/which channel should receive an embedded message containing a summary of each closed ticket. If you have also chosen to store transcripts (see below) there will also be a link to the transcript. Only those who had access to the ticket (plus all those with administration permissions in the server) will be able to access it.
+<!-- INSERT PHOTO OF ARCHIVE EMBED -->
+
+#### Overflow Category
+Discord has a limit of 50 channels to a category (and 500 channels total per server), so here is where another category can be selected for tickets to go into if the first Ticket Category is full. Find out more about ticket category [here](../reaction-panels.md#ticket-category).
+
+#### Store Ticket Transcripts
+Toggle whether transcripts of each ticket are stored for later review by your staff.
+
+#### Hide Claim Button
+Toggle whether the "Claim" button is shown in each ticket. Find out more about claiming [here](./claiming.md).
 
 ## /Open Command
-<!--UPDATE-->
-The panel content is the text in the long description of the embed. It has a maximum length of 1024 characters. We recommend providing a general overview of how your support system works, such as which languages you have support agents fluent in.
+This section has settings when using the `/open` command to create a ticket.
+
+#### Disable /Open Command
+Toggle whether server members can use `/open` to create a ticket.
+
+#### Channel Category
+Select which category the open tickets will be shown.
+
+#### Naming Scheme
+Select a naming scheme:
+Ticket followed by numbers or Ticket followed by the username of opener
+
+#### Welcome Message
+The welcome message is the message displayed in the Ticket as soon as the user opens it:
+
+![Welcome message](/img/welcome_message.webp)
+
+Note, the message has a maximum limit of 1024 characters due to Discord limitations.
+
+You may make use of placeholders in your welcome message. You can view a list of placeholders [here](../../setup/placeholders.md).
+
+The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title will show "No subject given" if didn't input one. 
 
 ## Context Menu (Start Ticket Dropdown)
-<!--UPDATE-->
-This is the colour on the left side of the embed. When clicked, a colour picker will open as shown below:
+This section has settings dealing with tickets that are created via the context menu (right clicking a message.)
 
-![Colour picker](/img/colour_picker.webp)
+There is a dedicated page documenting this section [here](../../features/start-ticket-from-message.md).
 
 ## Claiming
-<!--UPDATE-->
-This is the channel that the reaction panel will be sent in for users to react to. Therefore, this channel should be accessible to your users, and be the only message in the channel to avoid confusion.
+This section has the settings dealing with claiming tickets.
 
-This should **not** be the same as your archive / transcript channel.
+There is a dedicated page documenting this section/feature [here](./claiming.md).
 
 ## Auto Close
-<!--UPDATE-->
-This is the channel category that the ticket channel will be created under. If you are unsure what a channel category is, Discord has a guide explaining them available [here](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101).
+This section has settings dealing with automated closing of tickets.
 
-Reaction panels use different channel categories to the one you configured on the main settings tab to allow for distinction when using multiple reaction panels - meaning you can have each "type" of ticket open in it's own category for easier organization.
+#### Enabled
+Toggle whether any auto-close features work or not.
+*Must be checked for rest of section to work*
+
+#### Close On User Leave
+Toggle whether you'd like open tickets to be automatically closed if the Ticket Opener leaves the server.
+
+#### Since Open With No Response
+*This is a premium feature. Find out more about premium [here](https://ticketsbot.net/premium).*
+Set a timeframe in the boxes. If Ticket Opener does not type a message within that timeframe, the ticket will be closed automatically.
+
+#### Since Last Message
+*This is a premium feature. Find out more about premium [here](https://ticketsbot.net/premium).*
+Set a timeframe in the boxes. If no messages occur within that timeframe, the ticket will be closed automatically.
+
+## Ticket Permissions
+In this area you can define if some permissions are given to the users who open tickets.
+**Green** toggle buttons - user **will** receive this permission in their respective ticket channel.
+**Grey** toggle buttons - user **will not** receive this permission in their respective ticket channel.
 
 ## Colour Scheme
-<!--UPDATE-->
-Assign a form to your panel. Learn more about forms [here](../features/forms.md).
+*This is a premium feature. Find out more about premium [here](https://ticketsbot.net/premium).*
+Select custom colours for the embedded messages from Tickets bot.
 
-
-<!--UPDATE-->
 ## Completion
-Once you have configured the reaction panel to your liking, click `Submit` and the panel will be created in your server. You should be shown a success message in the bottom right hand corner of your screen if successful, or an appropriate error message if you made a mistake:
+Once you have configured these settings to your liking, click `Submit` for them to take effect in your server. 
 
-![Success](/img/panel_success.webp)
-
-If you leave any fields blank, the default values will be used.
-
-<!--UPDATE-->
 ## Editing
-If you wish to update a reaction panel at a later date, simply click the edit button in the list of panels and the editing modal will be opened:
-![Panel edit](/img/panel_edit.webp)
-
-You can also delete a panel by clicking the delete button, or deleting the message containing the panel in Discord. If you only delete the message in Discord, the panel will continue to exist on your Dashboard and you can resubmit it to Discord if needed.
+If you wish to update your settings at a later date, simply change the desired settings and click `Submit` again.

@@ -50,7 +50,7 @@ Note, the message has a maximum limit of 1024 characters due to Discord limitati
 
 You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).
 
-The title of the embed will either be based off of the subject provided by the user when using `/new [Subject]`, or the title of the reaction panel if used. We are unable to get a subject from the user when using reaction panels currently, however, this will be possible in a future update of Discord.
+The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title of the reaction panel if used. We are unable to get a subject from the user when using reaction panels currently, however, this will be possible in a future update of Discord.
 
 Archive Channel
 -
