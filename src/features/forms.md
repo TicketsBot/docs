@@ -1,7 +1,7 @@
 # Forms
 Tickets has the ability to prompt users for answers to pre-defined questions when opening a ticket:
 
-![Example](/img/forms/whitelabel.webp)
+![Example](/img/forms/example.webp)
 
 To set this up, you must first create a form, and then apply the form to your ticket panel. This way, you can assign 1 form to multiple different types of tickets.
 
