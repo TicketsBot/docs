@@ -17,5 +17,5 @@ Note: Admins will always have access to any claimed ticket, as well as the user 
 - Only the claimer can see the ticket
 
 You can configure which methodology is used on the dashboard's settings tab:
-<!-- MAKE THIS PHOTO?? Couldn't find it in files -->
-![Claim Settings](https://ticketsbot.net/assets/img/claimsettings.webp)
+
+![Claim Settings](../../img/settings_claim.webp)

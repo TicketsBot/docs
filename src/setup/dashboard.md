@@ -1,16 +1,15 @@
 # Bot Configuration: Web Dashboard
 First, head over to the dashboard at [panel.ticketsbot.net](https://panel.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
 
-![Login](/img/login.webp)
+![Login](../img/login.webp)
 
 A list of servers which you are a Tickets bot administrator (`/addadmin`) and the bot has been invited to should show up. Simply click on the server you want to configure. If the server does not show up, ensure that you are either the owner of the server or have been added as a Tickets bot administrator by the owner using `/addadmin @YourUsername` and log out of, then back into, the dashboard.
 
-![Server list](/img/server_list.webp)
+![Server list](../img/server_list.webp)
 
 You'll be taken to the settings page as follows:
 
-<!-- UPDATE PHOTO-->
-![Settings page](/img/settings.webp)
+![Settings page](../img/settings_card.webp)
 
 You'll first want to pay attention to the main **Settings** card. Here you can edit the following settings:
 
@@ -34,7 +33,7 @@ Ticket Close Confirmation
 -
 This option specifies whether Tickets will send a confirmation message when closing a ticket via the 🔒`close` reaction. If checked, Tickets will send the following message after reacting:
 
-![Ticket close confirmation](/img/ticket_close_confirmation.webp)
+![Ticket close confirmation](../img/ticket_close_confirmation.webp)
 
 Simply click the blue ✔️`close` reaction to confirm you want to close the ticket.
 
@@ -44,7 +43,7 @@ Welcome Message
 -
 The welcome message is the message displayed in the Ticket as soon as the user opens it:
 
-![Welcome message](/img/welcome_message.webp)
+![Welcome message](../img/welcome_message.webp)
 
 Note, the message has a maximum limit of 1024 characters due to Discord limitations.
 
@@ -58,7 +57,7 @@ When Tickets are closed, a transcript will automatically be recorded, encrypted,
 
 A message, similar to the one following, will also be sent to your archive channel to notify you the ticket was closed and provide you with a link to the dashboard to view the archive:
 
-![Archive message](/img/archive_message.webp)
+![Archive message](../img/archive_message.webp)
 
 This message will also be sent via direct messages to the user who opened the ticket. It is not possible to disable this functionality since we believe it is important for transparency purposes that users are also able to access the transcripts.
 
@@ -70,7 +69,7 @@ Designates the channel category that tickets will be created under. If you are u
 
 Your tickets will be grouped together under the category as follows:
 
-![Tickets](/img/channels.webp)
+![Tickets](../img/channels.webp)
 
 Overflow Category
 -
@@ -84,11 +83,11 @@ Submission
 -
 Once you are satisfied with your settings, press the `Submit` button to save them. An example follows:
 
-![Settings](/img/settings_card.webp)
+![Settings](../img/settings_card.webp)
 
 We now have the basic configuration completed!
 
 You may wish to configure the following options next:
 - [Reaction Panels](./panels.md)
-- [Claim Settings](./claims.md)
-- [Auto Close](./auto_close.md)
+- [Claim Settings](../dashboard/settings/claiming.md)
+- [Auto Close](../dashboard/settings/settings.md/#auto-close)

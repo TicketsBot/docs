@@ -1,24 +1,20 @@
 # Reaction Panels
 Reaction panels are embeds that users can react to in order to open a ticket with a single click:
 
-![Panel example](/img/panel_example.webp)
+![Panel example](../img/panel_example.webp)
 
 ## Creating A Panel
 In order to create a reaction panel, you'll need to head over to the web dashboard and select your server. If you're unfamiliar with how to do that, read our [guide on the web dashboard here](./dashboard.md).
 
-Once on your server's main settings page, select `Reaction Panels` in the top navigation bar:
+Once on your server's main settings page, select `Reaction Panels` in the top navigation bar and you'll be taken to the reaction panel configuration page which looks as follows:
 
-![Navbar](/img/panels_navbar.webp)
-
-You'll be taken to the reaction panel configuration page which looks as follows:
-
-![Reaction panel page](/img/panels_page.webp)
+![Reaction panel page](../img/panels_navbar.webp)
 
 You'll want to focus on the *left* side of the screen. The right side are settings for combining different panels into a single message.
 
 Draw your attention to the `Create A Panel` card. You'll configure the panel's appearance here:
 
-![Panel card](/img/panel_card.webp)
+![Panel card](../img/panel_card.webp)
 
 ## Panel Title
 The panel title is the bold text at the *top* of the embed. The panel title has a maximum length of 255 characters. By default, we set the value to `Open a ticket!`
@@ -29,7 +25,7 @@ The panel content is the text in the long description of the embed. It has a max
 ## Panel Colour
 This is the colour on the left side of the embed. When clicked, a colour picker will open as shown below:
 
-![Colour picker](/img/colour_picker.webp)
+![Colour picker](../img/colour_picker.webp)
 
 ## Panel Channel
 This is the channel that the reaction panel will be sent in for users to react to. Therefore, this channel should be accessible to your users, and be the only message in the channel to avoid confusion.
@@ -65,12 +61,14 @@ Upon clicking `Toggle Advanced Settings`, you'll have extra fields displayed to 
 - Small Image URL
 
 ## Welcome Message
-You may override the server's welcome message on a per-panel basis using this field. If left blank, the welcome message from the main settings page will be used.
+You may override the server's welcome message on a per-panel basis using this field. If left blank, the welcome message from the main settings page will be used.  
 
 You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).
 
 ## Naming Scheme
-This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the Settings portion of the Dashboard. If it's flipped to grey, you can setup a custom scheme. You may make use of some placeholders in your custom naming scheme. You can view a list of placeholders [here](./placeholders.md).
+This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the Settings portion of the Dashboard. If it's flipped to grey, you can setup a custom scheme.  
+
+You may make use of some placeholders in your custom naming scheme. You can view a list of placeholders [here](./placeholders.md).
 
 ## Mention On Open
 You may specify a list of roles and users to mention after the ticket is opened here. Note that the message mentioning these roles and users will be deleted instantly, however the mention will still persist until they open the channel. This will not work for those who have their notification settings on mute.
@@ -87,12 +85,12 @@ Input a URL link to an image here, it will be shown to the right of the welcome 
 ## Completion
 Once you have configured the reaction panel to your liking, click `Submit` and the panel will be created in your server. You should be shown a success message in the bottom right hand corner of your screen if successful, or an appropriate error message if you made a mistake:
 
-![Success](/img/panel_success.webp)
+![Success](../img/panel_success.webp)
 
 If you leave any fields blank, the default values will be used.
 
 ## Editing
 If you wish to update a reaction panel at a later date, simply click the edit button in the list of panels and the editing modal will be opened:
-![Panel edit](/img/panel_edit.webp)
+![Panel edit](../img/panel_edit.webp)
 
 You can also delete a panel by clicking the delete button, or deleting the message containing the panel in Discord. If you only delete the message in Discord, the panel will continue to exist on your Dashboard and you can resubmit it to Discord if needed.

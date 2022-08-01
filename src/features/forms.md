@@ -10,7 +10,6 @@ First, head over to the [dashboard](https://panel.ticketsbot.net) and select you
 
 Then, select the forms tab in the navigation bar:
 
-<!-- UPDATE PHOTO -->
 ![Navbar select](../img/forms/forms_navbar.webp)
 
 You can now create your first form. Enter a name for it, and press `Create`:
@@ -29,7 +28,6 @@ Head over to the `Reaction Panels` page of the dashboard via the top navigation 
 
 Either create a new ticket panel, or choose an existing one to edit. You will notice a dropdown labeled `Form`. Expand this dropdown, and select your new form:
 
-<!-- UPDATE PHOTO -->
 ![Form assignment](../img/forms/assignment.webp)
 
 Save your changes, and then test it out!
