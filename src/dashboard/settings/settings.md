@@ -1,5 +1,5 @@
 # Settings
-Upon opening the `Settings` menu, you'll have extra fields displayed to you (with the first two being expanded):
+Upon opening the `Settings` menu, extra sections will be displayed (with the first two being expanded):
 - General
 - Tickets
 - /Open Command
@@ -21,7 +21,8 @@ Set the max amount of tickets a server member can have open (staff is immune to 
 *This is total nuber of tickets **per member**, not per panel.*
 
 #### Language
-Set the bot's language. Find out more about this [here](../../setup/languages.md).
+Set the bot's language.  
+*Learn more about this [here](../../setup/languages.md).*
 
 #### Allow Users To Close Tickets
 Toggle whether the server members that open tickets can close them (or if that will be a permission only given to staff.)
@@ -43,13 +44,15 @@ Select if/which channel should receive an embedded message containing a summary 
 ![Archive Message](../../img/archive_message.webp)
 
 #### Overflow Category
-Discord has a limit of 50 channels to a category (and 500 channels total per server), so here is where another category can be selected for tickets to go into if the first Ticket Category is full. Find out more about ticket category [here](../reaction-panels.md#ticket-category).
+Discord has a limit of 50 channels to a category (and 500 channels total per server), so here is where another category can be selected for tickets to go into if the first Ticket Category is full.  
+*Learn more about ticket category [here](../reaction-panels.md#ticket-category).*
 
 #### Store Ticket Transcripts
 Toggle whether transcripts of each ticket are stored for later review by your staff.
 
 #### Hide Claim Button
-Toggle whether the "Claim" button is shown in each ticket. Find out more about claiming [here](./claiming.md).
+Toggle whether the "Claim" button is shown in each ticket.  
+*Learn more about claiming [here](./claiming.md).*
 
 ## /Open Command
 This section has settings when using the `/open` command to create a ticket.
@@ -71,7 +74,7 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 Note, the message has a maximum limit of 1024 characters due to Discord limitations.
 
-You may make use of placeholders in your welcome message. You can view a list of placeholders [here](../../setup/placeholders.md).
+You may make use of placeholders in your welcome message. View a list of placeholders [here](../../setup/placeholders.md).
 
 The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title will show "No subject given" if one wasn't input. 
 
@@ -96,11 +99,11 @@ Toggle whether any auto-close features work or not.
 Toggle whether you'd like open tickets to be automatically closed if the Ticket Opener leaves the server.
 
 #### Since Open With No Response
-*This is a premium feature. Find out more about premium [here](https://ticketsbot.net/premium).*  
+*This is a premium feature. Learn more about premium [here](https://ticketsbot.net/premium).*  
 Set a timeframe in the boxes. If Ticket Opener does not type a message within that timeframe, the ticket will be closed automatically.
 
 #### Since Last Message
-*This is a premium feature. Find out more about premium [here](https://ticketsbot.net/premium).*  
+*This is a premium feature. Learn more about premium [here](https://ticketsbot.net/premium).*  
 Set a timeframe in the boxes. If no messages occur within that timeframe, the ticket will be closed automatically.
 
 ## Ticket Permissions
@@ -109,7 +112,7 @@ In this area you can define if some permissions are given to the users who open 
 **Grey toggle buttons** - user **will not** receive this permission in their respective ticket channel.
 
 ## Colour Scheme
-*This is a premium feature. Find out more about premium [here](https://ticketsbot.net/premium).*  
+*This is a premium feature. Learn more about premium [here](https://ticketsbot.net/premium).*  
 Select custom colours for the embedded messages from Tickets bot.
 
 ## Completion

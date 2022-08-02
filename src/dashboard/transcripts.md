@@ -21,7 +21,7 @@ Discord username of the ticket opener.
 
 ### Rating
 If feedback is enabled, the feedback rating given by ticket opener will display.  
-For more on feedback, click [here](../setup/feedback.md).
+*Learn more about feedback [here](../setup/feedback.md).*
 
 ### Close Reason
 If "close with reason" button was selected (or `/close` was used and a reason was input), it will display. Otherwise, it will display "No reason specified."
