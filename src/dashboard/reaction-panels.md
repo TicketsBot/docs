@@ -6,17 +6,11 @@ Reaction panels are embeds that users can react to in order to open a ticket wit
 ## Creating A Panel
 In order to create a reaction panel, you'll need to head over to the web dashboard and select your server. If you're unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
-Once on your server's main settings page, select `Reaction Panels` in the top navigation bar:
+Once on your server's main settings page, select `Reaction Panels` in the top navigation bar and you'll be taken to the reaction panel configuration page which looks as follows:
 
-<!-- UPDATE PHOTO -->
-![Navbar](../img/panels_navbar.webp)
+![Reaction panel page](../img/panels_navbar.webp)
 
-You'll be taken to the reaction panel configuration page which looks as follows:
-
-<!-- UPDATE PHOTO -->
-![Reaction panel page](../img/panels_page.webp)
-
-You'll want to focus on the *left* side of the screen. The right side are settings for combining different panels into a single message (known as [Multi-Panels](../features/multipanels.md).)
+You'll want to focus on the *left* side of the screen. The right side are settings for combining different panels into a single message.
 
 Draw your attention to the `Create Panel` card. You'll configure the panel's appearance here:
 
@@ -72,19 +66,23 @@ You may override the server's welcome message on a per-panel basis using this fi
 You may make use of placeholders in your welcome message. You can view a list of placeholders [here](../setup/placeholders.md).
 
 ### Naming Scheme
-This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the Settings portion of the Dashboard. If it's flipped to grey, you can setup a custom scheme. You may make use of some placeholders in your custom naming scheme. You can view a list of placeholders [here](../setup/placeholders.md).
+This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the Settings portion of the Dashboard. If it's flipped to grey, you can setup a custom scheme.  
+
+You may make use of some placeholders in your custom naming scheme. You can view a list of placeholders [here](./placeholders.md).
 
 ### Mention On Open
 Here you may specify a list of roles/users to mention after the ticket is opened. Note that the message mentioning these roles/users will be deleted instantly, however the mention will still persist until they open the channel. This will not work for those who have their notification settings on mute.
 
 ### Support Teams
-Input which of your Support Teams you would like to handle this particular type of ticket.
+Input which of your created [Staff Teams](../dashboard/staff-teams.md) (or leave the Default team) you would like to handle this particular type of ticket.
 
 ### Large Image URL
-Input a URL link to an image here, it will be shown **underneath the welcome message**.
+Input a URL link to an image here, it will be shown **underneath the welcome message**.  
+- *File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input.*
 
 ### Small Image URL
-Input a URL link to an image here, it will be shown to the **right of the welcome message**.
+Input a URL link to an image here, it will be shown to the **right of the welcome message**.  
+- *File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input.*
 
 ## Completion
 Once you have configured the reaction panel to your liking, click `Submit` and the panel will be created in your server. You should be shown a success message in the bottom right hand corner of your screen if successful, or an appropriate error message if you made a mistake:
