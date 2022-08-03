@@ -1,4 +1,7 @@
 # Bot Configuration: Auto mode
+***
+***
+
 Tickets provides an option to automatically create a basic configuration for you. This isn't recommended since the settings are unlikely to be to your preference, and a reaction panel is not automatically created. For information on creating reaction panels, see our guide [here](./panels.md).
 
 To run the automatic setup mode, first ensure that you are either the owner of the server, or the owner has designated you as an administrator using `/addadmin @YourUsername`. Next, simply execute `/setup auto` in a channel the bot can see.

@@ -1,6 +1,11 @@
-# Welcome Message Placeholders:
+# Placeholders
+***
+***
 
-## Built-in
+## Welcome Message Placeholders:
+***
+
+### Built-in
 |Placeholder|Description |
 |--|--|
 | %user% | Mentions the user |
@@ -20,10 +25,10 @@
 | %first_response_time_monthly% | Staff average first response time to tickets this month |
 | %first_response_time_all_time% | Staff average first response time to tickets since the beginning |
 
-## Integrations
+### Integrations
 All integration placeholders are automatically active, you do not have to do anything special apart from include them in your welcome message.
 
-### Bloxlink
+#### Bloxlink
 These placeholders are available if the user has linked their Roblox account via [Bloxlink](https://blox.link)
 
 |Placeholder|Description |
@@ -35,7 +40,8 @@ These placeholders are available if the user has linked their Roblox account via
 | %roblox_account_age% | How long ago the user's Roblox account was created, e.g. `7 months ago` |
 | %roblox_account_created% | The date on which the user's Roblox account was created, e.g. `7 January 2019` |
 
-# Custom Naming Scheme Placeholders:
+## Custom Naming Scheme Placeholders:
+***
 
 |Placeholder|Description|
 |--|--|

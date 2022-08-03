@@ -1,4 +1,7 @@
 # Bot Configuration: Web Dashboard
+***
+***
+
 First, head over to the dashboard at [panel.ticketsbot.net](https://panel.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
 
 ![Login](../img/login.webp)
@@ -13,24 +16,24 @@ You'll be taken to the settings page as follows:
 
 You'll first want to pay attention to the main **Settings** card. Here you can edit the following settings:
 
-Prefix
--
+## Prefix
+
 This is the set of characters that comes before a command when not using slash commands, i.e. if you set the prefix to `t!`, you will run commands using `t!new`, `t!help`, etc. Do **not** include the command here.
 
-Ticket Limit
--
+## Ticket Limit
+
 This is the amount of tickets that a **single user** can have open **at a single time**. We usually recommend setting this to 1, but the default is 5.
 
 For example, if you set this value to 1, a user will be able to open and close tickets an infinite amount of times, but only have a single ticket open at once. This value does not affect the total amount of tickets that can be opened at once in a server.
 
 We do not impose any limits on the amount of tickets that a server can have open at once. However, please note that Discord only permits a total of 500 channels to exist in a server at once, and 50 channels to exist at once in a category. This means that you can move tickets to a new category if one gets filled, however you are limited to 500 channels overall by Discord.
 
-Allow Users To Close Tickets
--
+## Allow Users To Close Tickets
+
 This option specifies whether users are allowed to close their own tickets. If unchecked, only your support staff & administrators will be able to close them.
 
-Ticket Close Confirmation
--
+## Ticket Close Confirmation
+
 This option specifies whether Tickets will send a confirmation message when closing a ticket via the 🔒`close` reaction. If checked, Tickets will send the following message after reacting:
 
 ![Ticket close confirmation](../img/ticket_close_confirmation.webp)
@@ -39,8 +42,8 @@ Simply click the blue ✔️`close` reaction to confirm you want to close the ti
 
 Close confirmation does not apply to tickets closed using the slash command `/close`.
 
-Welcome Message
--
+## Welcome Message
+
 The welcome message is the message displayed in the Ticket as soon as the user opens it:
 
 ![Welcome message](../img/welcome_message.webp)
@@ -51,8 +54,8 @@ You may make use of placeholders in your welcome message. You can view a list of
 
 The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title of the reaction panel if used. We are unable to get a subject from the user when using reaction panels currently, however, this will be possible in a future update of Discord.
 
-Archive Channel
--
+## Archive Channel
+
 When Tickets are closed, a transcript will automatically be recorded, encrypted, and stored in cloud based object storage - with no user interaction required.
 
 A message, similar to the one following, will also be sent to your archive channel to notify you the ticket was closed and provide you with a link to the dashboard to view the archive:
@@ -63,24 +66,24 @@ This message will also be sent via direct messages to the user who opened the ti
 
 If you have privacy concerns, please join our [support server](https://discord.gg/VtV3rSk) to enquire. Unfortunately we are unable to answer any questions regarding your user data off-platform in order to verify your identity.
 
-Channel Category
--
+## Channel Category
+
 Designates the channel category that tickets will be created under. If you are unsure what a channel category is, Discord has a guide explaining them available [here](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101).
 
 Your tickets will be grouped together under the category as follows:
 
 ![Tickets](../img/channels.webp)
 
-Overflow Category
--
+## Overflow Category
+
 Discord has an imposed limitation that each Channel Category can only hold 50 channels. Once you hit this limit, Tickets bot will fail to be able to open more ticket channels for you and your server members. To help rectify this, you can set an Overflow Category. This is a category that the ticket channels will open in once your selected Channel Category has hit the Discord imposed limit.
 
-Naming Scheme
--
+## Naming Scheme
+
 Defines how the ticket channels should be named. Currently, the 2 options are by ticket ID (`#ticket-1`) or by username (`#ticket-name`). You can define more custom naming schemes in the settings of individual reaction panels, instead of this overall setting.
 
-Submission
--
+## Submission
+
 Once you are satisfied with your settings, press the `Submit` button to save them. An example follows:
 
 ![Settings](../img/settings_card.webp)

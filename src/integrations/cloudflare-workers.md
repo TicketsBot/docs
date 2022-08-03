@@ -1,4 +1,7 @@
 # Using Cloudflare Workers
+***
+***
+
 Sometimes services return data in a slightly different format than you want. Since Tickets integrations are only capable of reading exact JSON keys, some additional processing may be required.
 
 For example, FiveM servers return data in the following format, which posed an issue when creating our FiveM integration:
@@ -24,7 +27,9 @@ We are given a list of all players on the server, which we must search to find t
 
 Cloudflare Workers come in here.
 
-### What are Cloudflare Workers
+## What are Cloudflare Workers
+***
+
 [Cloudflare Workers](https://workers.cloudflare.com/) allow you to deploy serverless code (including JavaScript, and more), for free, with the click of a button. We can write a worker to listen to requests from Tickets, query the service we are integrating with, process the data, and return it to Tickets in an easy to read format.
 
 Looking at the FiveM integration again, the integration sends a request to `https://worker-name.xxxx.workers.dev/?serverid=%server_id%&user_id=%user_id`. The worker extracts the server ID and user ID from the URL, and then sends a request to the FiveM API with the provided server ID. It then parses the response, finds the user object, and responds with a simple JSON object:
@@ -43,7 +48,9 @@ If you are serving data that does not frequently change, you can use the workers
 
 The full Cloudflare worker documentation is available [here](https://developers.cloudflare.com/workers/).
 
-### Security
+## Security
+***
+
 You should add an Authorization header to your requests, so that malicious people are not able to send extraneous requests to your worker. An example code snippet is as follows:
 
 ```js

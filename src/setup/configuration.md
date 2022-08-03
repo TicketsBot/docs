@@ -1,4 +1,7 @@
 # Bot Configuration
+***
+***
+
 Let's start getting the bot ready for use in your server!
 
 Tickets was a very early adopter of slash commands, meaning that you can simply hit `/` in your Discord client to have commands auto-completed with the correct arguments:

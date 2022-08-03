@@ -1,9 +1,14 @@
 # Multi-panels
+***
+***
+
 Multi-panels are the combination of 2 or more Reaction Panels in a single embed:
 
 ![Multipanel example](../img/multipanel_example.webp)
 
 ## Creating A Multi-panel
+***
+
 In order to create a multi-panel, you'll need to head over to the web dashboard and select your server. If you're unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
 Once on your server's main settings page, select `Reaction Panels` in the top navigation bar and you'll be taken to the reaction panel configuration page which looks as follows:
@@ -40,6 +45,8 @@ This input field is where you select which of your already made individual panel
 - **Checked** = Ticket options appear as a dropdown menu.
 
 ## Advanced Settings
+***
+
 Upon clicking `Toggle Advanced Settings`, you'll have extra fields displayed to you:
 - Large Image URL
 - Small Image URL
@@ -51,13 +58,17 @@ Input a URL link to an image here, it will be shown **underneath the welcome mes
 Input a URL link to an image here, it will be shown to the **right of the welcome message.**
 
 ## Completion
+***
+
 Once you have configured the multi-panel to your liking, click `Submit` and the panel will be created in your server. You should be shown a success message in the bottom right hand corner of your screen if successful, or an appropriate error message if you made a mistake:
 
 ![Success](../img/panel_success.webp)
 
-If you leave any fields blank, the default values will be used.
+- If you leave any fields blank, the default values will be used.
 
 ## Editing
+***
+
 If you wish to update a multi-panel at a later date, simply click the edit button in the list of multi-panels and the editing modal will be opened:
 
 ![Multipanel edit](../img/multipanel_edit.webp)

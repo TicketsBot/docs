@@ -1,9 +1,12 @@
 # Bot Configuration: Ez mode
+***
+***
+
 Tickets provides an easy setup mode in which you will be asked a series of questions, your responses to which will be used to configure the bot.
 
 To run the easy setup mode, first ensure that you are either the owner of the server, or the owner has designated you as an administrator using `/addadmin @YourUsername`. Next, simply execute `t!setup ez` in a channel the bot can see.
 
-For definitions and explanations of settings, please refer to the [dashboard guide](./dashboard.md#prefix)
+- For definitions and explanations of settings, please refer to the [dashboard guide](./dashboard.md#prefix)
 
 ## Answering the questions
 You'll first be asked to specify a prefix for the bot to use:

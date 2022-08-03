@@ -1,9 +1,14 @@
 # Building Integrations
+***
+***
+
 Integrations let you include information retrieved from your own web server, or 3rd party APIs, directly in the welcome messages of your tickets!
 
 In this guide, we'll build an integration from scratch together, from start to finish. 
 
 ## What can I use integrations for?
+***
+
 If you run a service that incorporates [Discord OAuth](https://discord.com/developers/docs/topics/oauth2), you have a use case for integrations! Since your user objects are linked to Discord accounts, you can expose an API endpoint that Tickets can request to include information about the user in the ticket.
 
 A simple example would be a forum! When a user opens a ticket in your Discord server, you could include the user's forum username automatically.
@@ -13,6 +18,8 @@ Another example is our built-in Bloxlink integration, which allows you to includ
 Integrations do not necessarily need to fetch information about a user either! In the [next tutorial](), we show you how we built the cryptocurrency price integration. 
 
 ## Background Setup
+***
+
 Let's say we run a game, where users link their accounts to their Discord accounts. Users have usernames, scores and other metadata which we wish to display in the welcome message when a user opens a ticket.
 
 The following is some simple code that serves some example JSON data that we will be using for this tutorial. Let's say that this code is running on a web server, accessible at `https://example.ticketsbot.net`:
@@ -60,6 +67,8 @@ Your integration **MUST** return a JSON response. Parsing other data formats is 
 All data types are supported, except for JSON arrays. You should pre-process your arrays and join them to strings.
 
 ## Creating Your Integration
+***
+
 Now that we have somewhere to pull data from, we can start linking it up with Tickets!
 
 First, head over to our [dashboard](https://panel.ticketsbot.net), select any server, and then navigate to the Integrations tab in the navbar. From there, you will be able to press the "Create Integration" button:
@@ -130,6 +139,8 @@ You have now successfully configured your first integration! All that is left is
 You can view the list of available placeholders on the right-hand side of the page. Don't forget to *activate* the integration in your server, by pressing the "Add to server" button!
 
 ## Using Placeholders
+***
+
 Now that we have created out integration and added it to our server (don't forget this part), we can implement the placeholders!
 
 You'll need to head over to the "Reaction Panels" tab of the dashboard for your server, press edit on a panel, and open the welcome message editor:
@@ -147,9 +158,13 @@ Let's test it out!
 As you can see, the placeholders have successfully been fetched from the web server, and replaced with the provided values!
 
 ## Need Help?
+***
+
 If you're still not sure about creating integrations, we can help you! You may find it helpful to read our next guide, on [how we created the cryptocurrency price integration](/integrations/creating-the-cryptocurrency-integration). If you're still stuck, feel free to ask us in our [Discord server](https://discord.gg/bh6aAfP)!
 
 ## Security
+***
+
 We have put **significant** effort into making sure integrations are safe, by ensuring requests are always proxied, and not sent to where they are not supposed to be, including through additional penetration testing.
 
 Integration HTTP requests should be sent to your server via AS13335 (Cloudflare), and it should not be possible to send a request to a private IP.

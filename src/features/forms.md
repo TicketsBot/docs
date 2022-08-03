@@ -1,11 +1,16 @@
 # Forms
+***
+***
+
 Tickets has the ability to prompt users for answers to pre-defined questions when opening a ticket:
 
 ![Example](/img/forms/example.webp)
 
 To set this up, you must first create a form, and then apply the form to your reaction panel. This way, you can assign 1 form to multiple different types of tickets, if you choose.
 
-## Creating the form
+## Creating the Form
+***
+
 First, head over to the [dashboard](https://panel.ticketsbot.net) and select your server.
 
 Then, select the forms tab in the navigation bar:
@@ -23,7 +28,9 @@ Next, select your form from the Manage Forms dropdown list, and add up to 5 inpu
 Make sure to save your inputs.
 Your form has now been created. In order to show it to users, you must assign it to a ticket panel.
 
-## Assign your form to a panel
+## Assign Form to a Panel
+***
+
 Head over to the `Reaction Panels` page of the dashboard via the top navigation bar, as shown in the [panels](../setup/panels.md) documentation.
 
 Either create a new ticket panel, or choose an existing one to edit. You will notice a dropdown labeled `Form`. Expand this dropdown, and select your new form:
@@ -35,9 +42,13 @@ Save your changes, and then test it out!
 ![Output example](../img/forms/output.webp)
 
 ## Multipanels
+***
+
 When using [multi-panels](./multipanels) (different types of tickets combined into 1 message with multiple buttons), the form shown to the user is the form associated to the panel of the button clicked.
 
 ## Limitations (Discord imposed)
+***
+
 - Maximum of 5 questions per form
 - Currently only supports text input type - no radio buttons, or checkboxes
 - Form Labels have a max length of 45 characters

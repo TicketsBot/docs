@@ -1,9 +1,14 @@
 # Start Ticket From Message
+***
+***
+
 Did you know that you can start a ticket from a channel using message context menus?
 
 This is a similar functionality to Discord private threads. A common use case is for using tickets to perform moderation, where you can drag a user into a ticket to discuss a specific message with them.
 
 ## How To Use
+***
+
 To start a ticket from a message, simply right click the message (or long press on mobile devices), hover over `Apps`, and select `Start Ticket`:
 
 ![Context menu](../img/context_menu_start_ticket.webp)
@@ -13,6 +18,8 @@ A new ticket will be created with the user who sent the message. The bot will se
 ![Quote message](../img/context_menu_quote_message.webp)
 
 ## Configuration
+***
+
 ### Required Permission Level
 To limit usage of this functionality to staff members: visit the [web dashboard](../setup/dashboard.md), select your server, and take a look at the `Settings` page.
 

@@ -1,9 +1,14 @@
 # Reaction Panels
+***
+***
+
 Reaction panels are embeds that users can react to in order to open a ticket with a single click:
 
 ![Panel example](../img/panel_example.webp)
 
 ## Creating A Panel
+***
+
 In order to create a reaction panel, you'll need to head over to the web dashboard and select your server. If you're unfamiliar with how to do that, read our [guide on the web dashboard here](./dashboard.md).
 
 Once on your server's main settings page, select `Reaction Panels` in the top navigation bar and you'll be taken to the reaction panel configuration page which looks as follows:
@@ -38,7 +43,8 @@ This is the channel category that the ticket channel will be created under. If y
 Reaction panels use different channel categories to the one you configured on the main settings tab to allow for distinction when using multiple reaction panels - meaning you can have each "type" of ticket open in it's own category for easier organization.
 
 ### Form
-Assign a form to your panel. Learn more about forms [here](../features/forms.md).
+Assign a form to your panel.
+- *Learn more about forms [here](../features/forms.md).*
 
 ### Button Colour
 Choose the colour of the button.
@@ -52,6 +58,8 @@ This is the emoji that users will click in order to open a ticket. You can eithe
 Custom emojis from your server can be used by clicking the toggle to show green instead of grey. When toggled on, the input field will show you a list of your available emojis to choose from.
 
 ## Advanced Settings
+***
+
 Upon clicking `Toggle Advanced Settings`, you'll have extra fields displayed to you:
 - Welcome Message
 - Naming Scheme
@@ -84,13 +92,17 @@ Input a URL link to an image here, it will be shown to the **right of the welcom
 
 
 ## Completion
+***
+
 Once you have configured the reaction panel to your liking, click `Submit` and the panel will be created in your server. You should be shown a success message in the bottom right hand corner of your screen if successful, or an appropriate error message if you made a mistake:
 
 ![Success](../img/panel_success.webp)
 
-If you leave any fields blank, the default values will be used.
+- If you leave any fields blank, the default values will be used.
 
 ## Editing
+***
+
 If you wish to update a reaction panel at a later date, simply click the edit button in the list of panels and the editing modal will be opened:
 ![Panel edit](../img/panel_edit.webp)
 

@@ -1,4 +1,6 @@
 # Free vs Premium vs Whitelabel
+***
+***
 
 | Feature | Free | Premium | Whitelabel |
 |--|--|--|--|
