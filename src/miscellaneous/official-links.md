@@ -2,17 +2,17 @@
 ***
 ***
 
-## Website
+### Website
 [ticketsbot.net](https://ticketsbot.net/)
 
-## Invite The Bot
+### Invite The Bot
 [invite.ticketsbot.net](https://invite.ticketsbot.net/)
 
-## Dashboard
+### Dashboard
 [panel.ticketsbot.net](https://panel.ticketsbot.net/)
 
-## Documentation
+### Documentation
 [docs.ticketsbot.net](https://docs.ticketsbot.net/)
 
-## Discord Support Server
+### Discord Support Server
 [tickets bot support](https://discord.gg/VtV3rSk)
