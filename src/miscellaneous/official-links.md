@@ -9,8 +9,8 @@
 ## Dashboard
 [panel.ticketsbot.net](https://panel.ticketsbot.net/)
 
-## Discord Support Server
-[tickets bot support](https://discord.gg/VtV3rSk)
-
 ## Documentation
 [docs.ticketsbot.net](https://docs.ticketsbot.net/)
+
+## Discord Support Server
+[tickets bot support](https://discord.gg/VtV3rSk)
