@@ -1,4 +1,4 @@
-# Bot Configuration: Ez mode
+# Bot Configuration: EZ MODE
 ***
 ***
 

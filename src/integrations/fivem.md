@@ -1,4 +1,4 @@
-# Using the FiveM Integration
+# USING THE FiveM INTEGRATION
 ***
 ***
 

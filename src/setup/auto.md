@@ -1,4 +1,4 @@
-# Bot Configuration: Auto mode
+# Bot Configuration: AUTO MODE
 ***
 ***
 

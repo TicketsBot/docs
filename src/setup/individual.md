@@ -1,4 +1,4 @@
-# Bot Configuration: Individual settings
+# Bot Configuration: INDIVIDUAL SETTINGS
 ***
 ***
 

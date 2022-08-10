@@ -1,4 +1,4 @@
-# Advanced Commands
+# ADVANCED COMMANDS
 ***
 ***
 

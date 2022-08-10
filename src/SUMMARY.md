@@ -1,4 +1,4 @@
-# Summary
+# SUMMARY
 
 <!-- MAKE SETUP JUST THE BASICS TO GET TICKETING SYSTEM UP AND RUNNING -->
 - [Setup](./setup/introduction.md)

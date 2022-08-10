@@ -1,4 +1,4 @@
-# Claiming
+# CLAIMING
 ***
 ***
 
@@ -10,9 +10,9 @@ Note: Admins will always have access to any claimed ticket, as well as the user 
 ## Commands Related to Claiming:
 ***
 
-- /claim - Assigns you to a ticket
-- /transfer @User - Transfers a claimed ticket to another user
-- /unclaim - Removes the claim on the current ticket
+- **/claim** - Assigns you to a ticket
+- **/transfer @User** - Transfers a claimed ticket to another user
+- **/unclaim** - Removes the claim on the current ticket
 
 ## Claiming can be configured in 3 ways:
 ***

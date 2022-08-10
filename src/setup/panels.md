@@ -1,4 +1,4 @@
-# Reaction Panels
+# REACTION PANELS
 ***
 ***
 
@@ -85,10 +85,10 @@ Here you may specify a list of roles/users to mention after the ticket is opened
 Input which of your Staff Teams you would like to handle this particular type of ticket.
 
 ### Large Image URL
-Input a URL link to an image here, it will be shown **underneath the welcome message**.
+Input a URL link to an image here, it will display **underneath the welcome message**.
 
 ### Small Image URL
-Input a URL link to an image here, it will be shown to the **right of the welcome message**.
+Input a URL link to an image here, it will display to the **right of the welcome message**.
 
 
 ## Completion

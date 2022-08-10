@@ -1,4 +1,4 @@
-# Free vs Premium vs Whitelabel
+# FREE vs PREMIUM vs WHITELABEL
 ***
 ***
 

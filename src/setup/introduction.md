@@ -1,4 +1,8 @@
-# Setup  
+# SETUP  
+***
+***
+***
+
 Thanks for choosing Tickets as your support solution! In this guide we'll teach you how to get up and running in no time at all.  
   
 If you need any assistance in the process, feel free to join our [Discord server](https://discord.com/invite/VtV3rSk) and open a ticket to talk to our support staff.  

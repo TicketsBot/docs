@@ -1,4 +1,4 @@
-# Bot Configuration: Web Dashboard
+# Bot Configuration: WEB DASHBOARD
 ***
 ***
 

@@ -1,4 +1,4 @@
-# Whitelabel Setup Guide
+# WHITELABEL SETUP GUIDE
 ***
 ***
 

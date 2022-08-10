@@ -1,4 +1,4 @@
-# Using the Chargebee Integration
+# USING THE CHARGEBEE INTEGRATION
 ***
 ***
 

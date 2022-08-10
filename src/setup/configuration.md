@@ -1,4 +1,4 @@
-# Bot Configuration
+# BOT CONFIGURATION
 ***
 ***
 

@@ -1,4 +1,4 @@
-# Inviting the bot  
+# INVITING THE BOT  
 ***
 ***
 

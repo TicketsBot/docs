@@ -1,4 +1,4 @@
-# Multi-panels
+# MULTI-PANELS
 ***
 ***
 
@@ -52,10 +52,12 @@ Upon clicking `Toggle Advanced Settings`, you'll have extra fields displayed to 
 - Small Image URL
 
 ### Large Image URL
-Input a URL link to an image here, it will be shown **underneath the welcome message.**
+Input a URL link to an image here, it will be shown **underneath the welcome message**.  
+- *File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input.*
 
 ### Small Image URL
-Input a URL link to an image here, it will be shown to the **right of the welcome message.**
+Input a URL link to an image here, it will be shown to the **right of the welcome message**.  
+- *File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input.*
 
 ## Completion
 ***

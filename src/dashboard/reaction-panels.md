@@ -1,4 +1,4 @@
-# Reaction Panels
+# REACTION PANELS
 ***
 ***
 
@@ -85,11 +85,11 @@ Here you may specify a list of roles/users to mention after the ticket is opened
 Input which of your created [Staff Teams](../dashboard/staff-teams.md) (or leave the Default team) you would like to handle this particular type of ticket.
 
 ### Large Image URL
-Input a URL link to an image here, it will be shown **underneath the welcome message**.  
+Input a URL link to an image here, it will display **underneath the welcome message**.  
 - *File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input.*
 
 ### Small Image URL
-Input a URL link to an image here, it will be shown to the **right of the welcome message**.  
+Input a URL link to an image here, it will display to the **right of the welcome message**.  
 - *File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input.*
 
 ## Completion
