@@ -86,7 +86,7 @@ Upon clicking the button, you will be taken to the normal bot invite page - sele
 
 ![Invite](/img/whitelabel/invite.webp)
 
-### `We are not finished yet. Although the bot may be in your server, no commands or buttons will work until you complete ALL steps of the guide.`
+> ### `We are not finished yet. Although the bot may be in your server, no commands or buttons will work until you complete ALL steps of the guide.`
 
 ## (Step 6 of 7) Configuring Interactions
 ***
@@ -140,7 +140,7 @@ On the `General Information` tab of the Discord developer portal, you may have n
 
 You can enter our policies here to inform users of how their data may be used.
 
-Terms Of Service: https://ticketsbot.net/terms-of-service
-Privacy Policy: https://ticketsbot.net/privacy
+**Terms Of Service:** https://ticketsbot.net/terms-of-service  
+**Privacy Policy:** https://ticketsbot.net/privacy
 
 ![Policies](/img/whitelabel/policies.webp)

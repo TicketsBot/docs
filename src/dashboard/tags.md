@@ -38,11 +38,11 @@ This is how the bot will respond when the command is used.
 - *Bot responses may also be in customizable embeds complete with images, if desired.*
 
 Flipping the `Use Embed` toggle to green will display some more sections:
-- Embed
-- Author
-- Images
-- Footer
-- Fields
+- [Embed](#embed)
+- [Author](#author)
+- [Images](#images)
+- [Footer](#footer)
+- [Fields](#fields)
 
 ![Tag editor advanced](../img/tags_editor_advanced.webp)
 

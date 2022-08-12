@@ -8,8 +8,8 @@ Staff Teams can be used to further customize which of your staff members can see
 ***
 
 Upon opening the `Staff Teams` menu, there will be two main areas displayed:
-- Create Team
-- Manage Teams
+- [Create Team](#create-team)
+- [Manage Teams](#manage-teams)
 
 ![Staff team card](../img/staff_teams_card.webp)
 
@@ -23,9 +23,9 @@ Create new Staff Teams here by typing in a team name and clicking `Submit`.
 ***
 
 Options for managing a team:
-- Delete team entirely
-- Add members/roles to team
-- Remove members/roles from team
+- [Delete team entirely](#delete-a-staff-team)
+- [Add members/roles to team](#add-membersroles-to-a-staff-team)
+- [Remove members/roles from team](#remove-membersroles-to-a-staff-team)
 
 ![Manage teams card](../img/staff_teams_manage.webp)
 

@@ -32,7 +32,9 @@ An explanation of welcome messages is available [here](./dashboard.md#welcome-me
 
 > For example: to change the welcome message to `Hello, thank you for contacting support`, run `/setup welcomemessage Hello, thank you for contacting support`
 
-- You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).
+- You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).  
+
+- You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. First, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. Second, you can right click any channel name, username, message, etc and choose `Copy ID`.  Third, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
 
 ## Transcripts
 

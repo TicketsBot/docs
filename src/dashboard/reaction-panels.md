@@ -61,17 +61,19 @@ Custom emojis from your server can be used by clicking the toggle to show green 
 ***
 
 Upon clicking `Toggle Advanced Settings`, you'll have extra fields displayed to you:
-- Welcome Message
-- Naming Scheme
-- Mention on Open
-- Support Teams
-- Large Image URL
-- Small Image URL
+- [Welcome Message](#welcome-message)
+- [Naming Scheme](#naming-scheme)
+- [Mention on Open](#mention-on-open)
+- [Support Teams](#support-teams)
+- [Large Image URL](#large-image-url)
+- [Small Image URL](#small-image-url)
 
 ### Welcome Message
 You may override the server's welcome message on a per-panel basis using this field. If left blank, the welcome message from the main settings page will be used.
 
 - You may make use of placeholders in your welcome message. You can view a list of placeholders [here](../setup/placeholders.md).
+
+- You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. First, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. Second, you can right click any channel name, username, message, etc and choose `Copy ID`.  Third, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
 
 ### Naming Scheme
 This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the Settings portion of the Dashboard. If it's flipped to grey, you can setup a custom scheme.  

@@ -48,9 +48,11 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 ![Welcome message](../img/welcome_message.webp)
 
-Note, the message has a maximum limit of 1024 characters due to Discord limitations.
+> **Note:** the message has a maximum limit of 1024 characters due to Discord limitations.
 
-You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).
+- You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).  
+
+- You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. First, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. Second, you can right click any channel name, username, message, etc and choose `Copy ID`.  Third, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
 
 The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title of the reaction panel if used. We are unable to get a subject from the user when using reaction panels currently, however, this will be possible in a future update of Discord.
 
@@ -80,7 +82,7 @@ Discord has an imposed limitation that each Channel Category can only hold 50 ch
 
 ## Naming Scheme
 
-Defines how the ticket channels should be named. Currently, the 2 options are by ticket ID (`#ticket-1`) or by username (`#ticket-name`). You can define more custom naming schemes in the settings of individual reaction panels, instead of this overall setting.
+Defines how the ticket channels should be named. Currently, the 2 options are by ticket ID (`#ticket-1`) or by username (`#ticket-name`). You can define more [custom naming schemes](./panels.md#naming-scheme) in the settings of individual reaction panels, instead of this overall setting.
 
 ## Submission
 

@@ -6,14 +6,14 @@ Tickets has the ability to prompt users for answers to pre-defined questions whe
 
 ![Example](/img/forms/example.webp)
 
-To set this up, you must first create a form, and then apply the form to your reaction panel. This way, you can assign 1 form to multiple different types of tickets, if you choose.
+To set this up, you must first create a form, and then apply the form to your reaction panel. This way, you can assign a single form to multiple different types of tickets, if you choose.
 
 ## Creating the Form
 ***
 
 First, head over to the [dashboard](https://panel.ticketsbot.net) and select your server.
 
-Then, select the forms tab in the navigation bar:
+Then, select the `Forms` tab in the navigation bar:
 
 ![Navbar select](../img/forms/forms_navbar.webp)
 
@@ -21,7 +21,7 @@ You can now create your first form. Enter a name for it, and press `Create`:
 
 ![Form Creation](../img/forms/create.webp)
 
-Next, select your form from the Manage Forms dropdown list, and add up to 5 inputs. Enter a label for the question, some placeholder text, and select the type of input:
+Next, select your form from the `Manage Forms` dropdown list, and add up to 5 inputs. Enter a label for the question, some placeholder text, and select the type of input:
 
 ![Input Creation](../img/forms/inputs.webp)
 

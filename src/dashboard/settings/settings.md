@@ -3,13 +3,13 @@
 ***
 
 Upon opening the `Settings` menu, extra sections will be displayed (with the first two being expanded):
-- General
-- Tickets
-- /Open Command
-- Context Menu (Start Ticket Dropdown)
-- Claiming
-- Auto Close
-- Colour Scheme
+- [General](#general)
+- [Tickets](#tickets)
+- [/Open Command](#open-command)
+- [Context Menu (Start Ticket Dropdown)](#context-menu-start-ticket-dropdown)
+- [Claiming](#claiming)
+- [Auto Close](#auto-close)
+- [Colour Scheme](#colour-scheme)
 
 ![Settings card](../../img/settings_card.webp)
 
@@ -58,7 +58,7 @@ Discord has a limit of 50 channels to a category (and 500 channels total per ser
 Toggle whether transcripts of each ticket are stored for later review by your staff.
 
 ### Hide Claim Button
-Toggle whether the "Claim" button is shown in each ticket.  
+Toggle whether the `Claim` button is shown in each ticket.  
 - *Learn more about claiming [here](./claiming.md).*
 
 ## /Open Command
@@ -70,20 +70,22 @@ This section has settings when using the `/open` command to create a ticket.
 Toggle whether server members can use `/open` to create a ticket.
 
 ### Channel Category
-Select which category the open tickets will be shown.
+Select which category the open tickets will display.
 
 ### Naming Scheme
 Select a naming scheme:
-Ticket followed by numbers or Ticket followed by the username of opener
+Ticket followed by numbers or Ticket followed by the username of opener.
 
 ### Welcome Message
 The welcome message is the message displayed in the Ticket as soon as the user opens it:
 
 ![Welcome message](../../img/welcome_message.webp)
 
-Note, the message has a maximum limit of 1024 characters due to Discord limitations.
+> **Note:** the message has a maximum limit of 1024 characters due to Discord limitations.
 
-You may make use of placeholders in your welcome message. View a list of placeholders [here](../../setup/placeholders.md).
+- You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).  
+
+- You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. First, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. Second, you can right click any channel name, username, message, etc and choose `Copy ID`.  Third, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
 
 The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title will show "No subject given" if one wasn't input. 
 

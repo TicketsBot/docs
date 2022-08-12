@@ -48,8 +48,8 @@ This input field is where you select which of your already made individual panel
 ***
 
 Upon clicking `Toggle Advanced Settings`, you'll have extra fields displayed to you:
-- Large Image URL
-- Small Image URL
+- [Large Image URL](#large-image-url)
+- [Small Image URL](#small-image-url)
 
 ### Large Image URL
 Input a URL link to an image here, it will be shown **underneath the welcome message**.  
