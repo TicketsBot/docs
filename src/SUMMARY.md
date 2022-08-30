@@ -13,6 +13,7 @@
     - [Welcome Message Placeholders](./setup/placeholders.md)
 - [Features](./features/introduction.md)
     - [Forms](./features/forms.md)
+    - [Thread Mode](./features/thread-mode.md) 
     - [Start Ticket From Message](./features/start-ticket-from-message.md)
     - [Close Requests](./features/close-requests.md)
     - [Language Customisation](./setup/languages.md)
