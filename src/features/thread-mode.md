@@ -50,3 +50,10 @@ Permission management capability on threads has been heavily limited by Discord.
 
 ### Will channel mode be removed?
 No, both modes will be supported forever. Thread mode is completely optional.
+
+### My users can't type in their support tickets!
+You must grant the "Send Messages in Threads" permission to your @everyone role in the **panel channel**:
+
+![Edit channel](/img/edit_channel.webp)
+
+![Grant send messages](/img/grant_send_messages_in_thread.webp)
