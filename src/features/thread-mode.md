@@ -19,7 +19,9 @@ Instead of the whole support team being added to a ticket when it is opened, the
 |No spaces in channel names|Spaces in channel names permitted: e.g. `Ticket 1234`
 
 [^note1]: This is a Discord requirement for enabling private threads. To boost a server from 0 boosts to level 2 without help from any other members, it will cost you $27.44/month
+
 [^note2]: Staff members must individually click a button to join the ticket, so the behaviour is replicated
+
 [^note3]: This is due to Discord's permission management internals being very different for threads
 
 ## On-Call
