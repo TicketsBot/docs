@@ -59,7 +59,7 @@ Toggle whether a user can provide a star rating feedback on the service they rec
 
 We now support using private threads for tickets! This is a new optional mode for the bot that drastically changes how tickets operate.
 
-- _Learn more about Thread Mode [here](link to thread mode page)._
+- _Learn more about Thread Mode [here](../../features/thread-mode.md)._
 
 ### Enabled
 
