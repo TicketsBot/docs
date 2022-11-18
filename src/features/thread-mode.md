@@ -11,14 +11,14 @@ Instead of the whole support team being added to a ticket when it is opened, the
 |Default mode, can be used by everyone|Requires server boost level 2 (7 boosts)[^note1]|
 |Tickets cannot be reopened once closed|Tickets can be reopened|
 |Transcripts only viewable on dashboard|Transcripts viewable on dashbord, and within Discord|
-|Limited to 500 channels |Unlimited threads |
+|Limited to 500 channels total, and only 50 channels in a single category|Unlimited threads |
 |All staff on support team added to ticket | Staff members must press button to join ticket |
 |Tickets can be claimed |Ticket claiming is unsupported [^note2]|
 |`/switchpanel` changes the ticket panel of an existing ticket |`/switchpanel` is unsupported [^note3]|
 |No concept of on-call staff|Staff can be marked as on-call to automatically be pinged and added to tickets|
 |No spaces in channel names|Spaces in channel names permitted: e.g. `Ticket 1234`
 
-[^note1]: This is a Discord requirement for enabling private threads. To boost a server from 0 boosts to level 2 without help from any other members, it will cost you $27.44/month
+[^note1]: This is a Discord requirement for enabling private threads. To boost a server from 0 boosts to level 2 without help from any other members, it will cost you $27.44/month (at time of writing)
 
 [^note2]: Staff members must individually click a button to join the ticket, so the behaviour is replicated
 
