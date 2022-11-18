@@ -46,7 +46,6 @@ These placeholders are available if the user has linked their Roblox account via
 |Placeholder|Description|
 |--|--|
 | %id% | Display the unique ticket id# |
-| %id_padded% | Display the unique ticket id# to 4 places |
+| %id_padded% &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Display the unique ticket id# to 4 places &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 | %username% | Display the user's name |
 | %nickname% | Display the user's nickname |
-| %claimed% | Will either show as "claimed" or "unclaimed" based on claim status of the ticket |
