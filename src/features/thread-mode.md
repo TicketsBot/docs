@@ -8,21 +8,18 @@ Instead of the whole support team being added to a ticket when it is opened, the
 ## Channel vs Thread Comparison
 |Channels|Threads |
 |--|--|
-|Default mode, can be used by everyone|Requires server boost level 2 (7 boosts)[^note1]|
 |Tickets cannot be reopened once closed|Tickets can be reopened|
 |Transcripts only viewable on dashboard|Transcripts viewable on dashbord, and within Discord|
 |Limited to 500 channels total, and only 50 channels in a single category|Unlimited threads |
 |All staff on support team added to ticket | Staff members must press button to join ticket |
-|Tickets can be claimed |Ticket claiming is unsupported [^note2]|
-|`/switchpanel` changes the ticket panel of an existing ticket |`/switchpanel` is unsupported [^note3]|
+|Tickets can be claimed |Ticket claiming is unsupported [^note1]|
+|`/switchpanel` changes the ticket panel of an existing ticket |`/switchpanel` is unsupported [^note2]|
 |No concept of on-call staff|Staff can be marked as on-call to automatically be pinged and added to tickets|
 |No spaces in channel names|Spaces in channel names permitted: e.g. `Ticket 1234`
 
-[^note1]: This is a Discord requirement for enabling private threads. To boost a server from 0 boosts to level 2 without help from any other members, it will cost you $27.44/month (at time of writing)
+[^note1]: Staff members must individually click a button to join the ticket, so the behaviour is replicated
 
-[^note2]: Staff members must individually click a button to join the ticket, so the behaviour is replicated
-
-[^note3]: This is due to Discord's permission management internals being very different for threads
+[^note2]: This is due to Discord's permission management internals being very different for threads
 
 ## On-Call
 Thread mode introduces a new command: `/on-call`. When a staff member runs this command, they will be assigned roles marking them as on call, until they run the command again. When a new ticket is opened, the on call roles are pinged in the ticket, instantly adding all currently on call staff members to the ticket.
