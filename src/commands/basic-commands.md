@@ -31,7 +31,7 @@
 | /setup prefix | Change the prefix used for non slash commands (default is `t!`) |
 | /setup welcomemessage | Change the overall welcome message |
 | /setup limit | Change the quantity of tickets a single user can have open at the same time |
-| /setup transcripts |  |
+| /setup transcripts | Change the archive channel |
 | /setup category | Change the category of where tickets will open |
 | /stats user | Displays statistics about the selected user |
 | /stats server | Displays statistics about the server |
