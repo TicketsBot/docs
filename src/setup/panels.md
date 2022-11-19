@@ -38,7 +38,7 @@ This is the channel that the reaction panel will be sent in for users to react t
 **This should not be the same as your archive / transcript channel.**
 
 ### Ticket Category
-This is the channel category that the ticket channel will be created under. If you are unsure what a channel category is, Discord has a guide explaining them available [here](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101).
+Designates the channel category that the ticket channel will be created under. If you are unsure what a channel category is, Discord has a guide explaining them available [here](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101).
 
 Reaction panels use different channel categories to the one you configured on the main settings tab to allow for distinction when using multiple reaction panels - meaning you can have each "type" of ticket open in it's own category for easier organization.
 
@@ -73,10 +73,10 @@ You may override the server's welcome message on a per-panel basis using this fi
 
 - You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).  
 
-- You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. First, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. Second, you can right click any channel name, username, message, etc and choose `Copy ID`.  Third, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
+- You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. **First**, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. **Second**, you can right click any channel name, username, message, etc and choose `Copy ID`.  **Third**, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
 
 ### Naming Scheme
-This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the Settings portion of the Dashboard. If it's flipped to grey, you can setup a custom scheme.  
+This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the `Settings` portion of the Dashboard. If it's flipped to grey, you can setup a custom scheme.  
 
 You may make use of some placeholders in your custom naming scheme. You can view a list of placeholders [here](./placeholders.md#custom-naming-scheme-placeholders).
 
@@ -84,7 +84,7 @@ You may make use of some placeholders in your custom naming scheme. You can view
 Here you may specify a list of roles/users to mention after the ticket is opened. Note that the message mentioning these roles/users will be deleted instantly, however the mention will still persist until they open the channel. This will not work for those who have their notification settings on mute.
 
 ### Support Teams
-Input which of your Staff Teams you would like to handle this particular type of ticket.
+Input which of your `Staff Teams` you would like to handle this particular type of ticket.
 
 ### Large Image URL
 Input a URL link to an image here, it will display **underneath the welcome message**.  
@@ -107,7 +107,7 @@ Once you have configured the reaction panel to your liking, click `Submit` and t
 ## Editing
 ***
 
-If you wish to update a reaction panel at a later date, simply click the edit button in the list of panels and the editing modal will be opened:
+If you wish to update a reaction panel at a later date, simply click the `Edit` button in the list of panels and the editing modal will be opened:
 ![Panel edit](../img/panel_edit.webp)
 
-You can also delete a panel by clicking the delete button, or deleting the message containing the panel in Discord. If you only delete the message in Discord, the panel will continue to exist on your Dashboard and you can resubmit it to Discord if needed.
+You can also delete a panel by clicking the `Delete` button, or deleting the message containing the panel in Discord. If you only delete the message in Discord, the panel will continue to exist on your Dashboard and you can resubmit it to Discord if needed by clicking the `Resend` button.

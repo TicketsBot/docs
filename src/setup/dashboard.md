@@ -18,7 +18,9 @@ You'll first want to pay attention to the main **Settings** card. Here you can e
 
 ## Prefix
 
-This is the set of characters that comes before a command when not using slash commands, i.e. if you set the prefix to `t!`, you will run commands using `t!new`, `t!help`, etc. Do **not** include the command here.
+> **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands!
+
+~~This is the set of characters that comes before a command when not using slash commands, i.e. if you set the prefix to `t!`, you will run commands using `t!new`, `t!help`, etc. Do **not** include the command here.~~
 
 ## Ticket Limit
 
@@ -52,7 +54,7 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 - You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).  
 
-- You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. First, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. Second, you can right click any channel name, username, message, etc and choose `Copy ID`.  Third, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
+- You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. **First**, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. **Second**, you can right click any channel name, username, message, etc and choose `Copy ID`.  **Third**, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
 
 The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title of the reaction panel if used. We are unable to get a subject from the user when using reaction panels currently, however, this will be possible in a future update of Discord.
 

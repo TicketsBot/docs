@@ -40,6 +40,3 @@ You can include the following placeholders in your welcome message to display yo
 You can view the ratings of individual tickets by navigating to the transcripts page on the dashboard. Next to each ticket, the rating given by the user will be shown:
 ![Individual ratings](../img/feedback_transcripts.webp)
 
-<!-- DO WE NEED THIS?? -->
-### Dashboard
-More dashboard options will be implemented when Discord adds forms & prompts.
