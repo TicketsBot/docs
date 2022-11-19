@@ -4,13 +4,12 @@
 
 - [Setup](./setup/introduction.md)
 
-  - [Inviting the bot](./setup/invite.md)
+  - [Inviting the Bot](./setup/invite.md)
   - [Language Customisation](./setup/languages.md)
   - [Bot Configuration](./setup/configuration.md)
-    - [Web dashboard](./setup/dashboard.md)
-    - [Easy mode](./setup/easy.md)
-    - [Auto mode](./setup/auto.md)
-    - [Command mode](./setup/individual.md)
+    - [Web Dashboard](./setup/dashboard.md)
+    - [Auto](./setup/auto.md)
+    - [Individual Settings](./setup/individual.md)
   - [Reaction Panels](./setup/panels.md)
 
 - [Commands](./commands/introduction.md)
