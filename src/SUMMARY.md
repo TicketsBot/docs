@@ -14,10 +14,9 @@
 
 - [Commands](./commands/introduction.md)
 
-  - [Basic Command List](./commands/basic-commands.md)
-  - [Advanced Command List](./commands/advanced-commands.md)
-    - [Close Requests](./features/close-requests.md)
+  - [Command List](./commands/commands.md)
     - [Add Admin/Support](./commands/add-admin-support.md)
+    - [Close Requests](./features/close-requests.md)
     <!--- ANY OTHER ADVANCED COMMANDS -->
 
 - [Dashboard](./dashboard/introduction.md)
