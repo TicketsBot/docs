@@ -3,7 +3,6 @@
 <!-- MAKE SETUP JUST THE BASICS TO GET TICKETING SYSTEM UP AND RUNNING -->
 
 - [Setup](./setup/introduction.md)
-
   - [Inviting the Bot](./setup/invite.md)
   - [Language Customisation](./setup/languages.md)
   - [Bot Configuration](./setup/configuration.md)
@@ -13,14 +12,12 @@
   - [Reaction Panels](./setup/panels.md)
 
 - [Commands](./commands/introduction.md)
-
   - [Command List](./commands/commands.md)
     - [Add Admin/Support](./commands/add-admin-support.md)
     - [Close Requests](./features/close-requests.md)
     <!--- ANY OTHER ADVANCED COMMANDS -->
 
 - [Dashboard](./dashboard/introduction.md)
-
   - [Settings](./dashboard/settings/settings.md)
     - [Placeholders](./setup/placeholders.md)
     - [User Feedback](./setup/feedback.md)
@@ -41,12 +38,10 @@
   - [Tags](./dashboard/tags.md)
 
 - [Premium](./premium/introduction.md)
-
   - [Premium and Whitelabel Perks](./premium/perks.md)
   - [Whitelabel Setup Guide](./premium/whitelabel-setup-guide.md)
 
 - [Features](./features/introduction.md)
-
   - [Integrations](./features/integrations.md)
   - [Thread Mode](./features/thread-mode.md)
   - [Forms](./features/forms.md)

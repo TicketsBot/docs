@@ -4,7 +4,9 @@
 
 Tickets is highly accessible, supporting over 20 languages at the time of writing.
 
-Use the `/language` command with a 2 digit country code to switch your server's language (e.g. `/language de`). If you enter an invalid country code, a list of languages, along with their translation progress will be presented:
+Use the `/language` command with a 2 digit country code to switch your server's language (e.g. `/language de`.)
+
+If an invalid country code is entered, a list of languages, along with their translation progress will be presented:
 
 ![Language list](../img/languages.webp)
 
