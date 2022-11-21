@@ -17,7 +17,7 @@ For definitions and explanations of settings, please refer to the [dashboard gui
 | /setup prefix | Change the prefix used for non slash commands (default is `t!`) |
 | /setup welcomemessage | Change the overall welcome message |
 | /setup limit | Change the quantity of tickets a single user can have open at the same time |
-| /setup transcripts | Change the archive channel |
+| /setup transcripts | Change the transcripts channel |
 | /setup category | Change the category of where tickets will open |
 
 ### Auto
@@ -50,9 +50,9 @@ An explanation of the welcome message is available [here](./dashboard.md#welcome
 
 ### Transcripts
 
-An explanation of transcript channels / archive channels is available [here](./dashboard.md#archive-channel). The command `/setup transcripts` is used to configure the archive channel.
+An explanation of transcript channels is available [here](./dashboard.md#transcripts-channel). The command `/setup transcripts` is used to configure the transcripts channel.
 
-> **For example:** to change the archive channel to `#logs`, run `/setup transcripts #logs`
+> **For example:** to change the transcripts channel to `#logs`, run `/setup transcripts #logs`
 
 - *Please note, the channel must already exist.*
 

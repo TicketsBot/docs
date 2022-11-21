@@ -41,7 +41,7 @@
 | /setup prefix | Change the prefix used for non slash commands (default is `t!`) **NOTE:** Prefix commands are no longer supported, must use slash commands |
 | /setup welcomemessage | Change the overall welcome message |
 | /setup limit | Change the quantity of tickets a single user can have open at the same time |
-| /setup transcripts | Change the archive channel |
+| /setup transcripts | Change the transcripts channel |
 | /setup category | Change the category of where tickets will open |
 | /viewstaff | Lists the staff members and roles (admin or support) |
 

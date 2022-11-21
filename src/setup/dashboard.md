@@ -58,11 +58,11 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title of the reaction panel if used. We are unable to get a subject from the user when using reaction panels currently, however, this will be possible in a future update of Discord.
 
-## Archive Channel
+## Transcripts Channel
 
 When Tickets are closed, a transcript will automatically be recorded, encrypted, and stored in cloud based object storage - with no user interaction required.
 
-A message, similar to the one following, will also be sent to your archive channel to notify you the ticket was closed and provide you with a link to the dashboard to view the archive:
+A message, similar to the one following, will also be sent to your transcripts channel to notify you the ticket was closed and provide you with a link to the dashboard to view the archive:
 
 ![Archive message](../img/archive_message.webp)
 
