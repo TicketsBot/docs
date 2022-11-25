@@ -14,7 +14,7 @@
 | %open_tickets% | Display the number of open tickets in the server |
 | %total_tickets% | Display the number of tickets that have ever been opened in the server |
 | %user_open_tickets% | Display the number of tickets that the user currently has open in the server |
-| %ticket_limit% | Display the server's ticket limit   |
+| %ticket_limit% | Display the server's ticket limit |
 | %rating_count% | Amount of feedback ratings you have received |
 | %average_rating% | Your average feedback rating |
 | %time% | Display the current time |
@@ -23,7 +23,7 @@
 | %first_response_time_weekly% | Staff average first response time to tickets this week |
 | %first_response_time_monthly% | Staff average first response time to tickets this month |
 | %first_response_time_all_time% | Staff average first response time to tickets since the beginning |
-| %discord_account_creation_date% | The date and time that the user's Discord account was created at |
+| %discord_account_creation_date% | The date and time that the user's Discord account was created |
 | %discord_account_age% | How long ago the user's Discord account was created |
 
 ### Integrations
