@@ -19,8 +19,9 @@
 
 - [Dashboard](./dashboard/introduction.md)
   - [Settings](./dashboard/settings/settings.md)
-    - [Placeholders](./setup/placeholders.md)
     - [User Feedback](./setup/feedback.md)
+    - [Thread Mode](./features/thread-mode.md)
+    - [Placeholders](./setup/placeholders.md)
     - [Start Ticket From Message](./features/start-ticket-from-message.md)
     - [Claiming Tickets](./dashboard/settings/claiming.md)
   - [Transcripts](./dashboard/transcripts.md)
