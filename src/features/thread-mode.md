@@ -39,9 +39,6 @@ Alternately, you can enable threads via the settings page of the dashboard:
 ### Which mode should I use?
 If you run a server with a small team, we would likely recommend sticking with channel mode. If you run a server with a heavy focus on 1-on-1 support or claiming, we would recommend thread mode. Nevertheless, if you require any of the additional features like reopening tickets, you must use thread mode.
 
-### I have enabled thread mode, but tickets are still being opened as channels!
-In this case, it is likely that your server does not have the level 2 boost level required for private threads.
-
 ### Why can't the bot add the support team to the thread straight away?
 Permission management capability on threads has been heavily limited by Discord. It is not possible to add or remove members in bulk.
 

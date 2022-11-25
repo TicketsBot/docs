@@ -23,6 +23,8 @@
 | %first_response_time_weekly% | Staff average first response time to tickets this week |
 | %first_response_time_monthly% | Staff average first response time to tickets this month |
 | %first_response_time_all_time% | Staff average first response time to tickets since the beginning |
+| %discord_account_creation_date% | The date and time that the user's Discord account was created at |
+| %discord_account_age% | How long ago the user's Discord account was created |
 
 ### Integrations
 All integration placeholders are automatically active, you do not have to do anything special apart from include them in your welcome message.
