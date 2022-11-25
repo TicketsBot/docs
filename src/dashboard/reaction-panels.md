@@ -46,7 +46,7 @@ Reaction panels use different channel categories to the one configured on the ma
 
 ### Form
 Assign a form to the panel.
-- *Learn more about forms [here](../features/forms.md).*
+- *Learn more about Forms [here](../features/forms.md).*
 
 ### Button Colour
 Choose the colour of the button.

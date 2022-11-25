@@ -34,7 +34,7 @@ You can include the following placeholders in your welcome message to display yo
 - %average_rating%
 - %rating_count%
 
-> **Note:** You can view more placeholders by clicking [here](./placeholders.md).
+> **Note:** View more placeholders by clicking [here](./placeholders.md).
 
 ### Viewing Individual Ticket Ratings
 You can view the ratings of individual tickets by navigating to the transcripts page on the dashboard. Next to each ticket, the rating given by the user will be shown:

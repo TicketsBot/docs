@@ -17,7 +17,7 @@ Upon opening the `Staff Teams` menu, there will be two main areas displayed:
 ***
 
 Create new Staff Teams here by typing in a team name and clicking `Submit`.
-- *A team must always exist before it can be managed.* 
+- *A team must exist before it can be managed.* 
 
 ## Manage Teams
 ***
@@ -47,5 +47,5 @@ Select the team you wish to delete, and a red `Delete` button will appear next t
 ***
 
 The Default team cannot be deleted. Those members/roles added with the `/addadmin` and `/addsupport` commands get added to this team automatically.  
-- To learn more about these two commands click [here](../commands/add-admin-support.md).  
-- To learn more about the rest of the commands click [here](../commands/basic-commands.md)
+- *Learn more about these two commands [here](../commands/add-admin-support.md).*  
+- *Learn more about the rest of the commands [here](../commands/basic-commands.md)*

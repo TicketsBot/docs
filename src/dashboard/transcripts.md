@@ -27,11 +27,11 @@ This unique ticket number cannot be reset or changed.
 Discord username of the ticket opener.
 
 ### Rating
-If feedback is enabled, the feedback rating given by ticket opener will display.  
-- *Learn more about feedback [here](../setup/feedback.md).*
+If user feedback is enabled, the feedback rating given by ticket opener will display.  
+- *Learn more about User Feedback [here](../setup/feedback.md).*
 
 ### Close Reason
-If "close with reason" button was selected (or `/close` was used and a reason was input), it will display. Otherwise, it will display "No reason specified."
+If `close with reason` button was selected (or `/close` was used and a reason was input), it will display. Otherwise, it will display "No reason specified."
 
 ### Transcript
 Click to view the transcript.

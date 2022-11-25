@@ -37,7 +37,7 @@ Set the max amount of tickets a server member can have open (staff is immune to 
 
 Set the bot's language.
 
-- _Learn more about this [here](../../setup/languages.md)._
+- _Learn more about Language Customization [here](../../setup/languages.md)._
 
 ### Allow Users To Close Tickets
 
@@ -51,7 +51,9 @@ Toggle whether a second confirmation is required to close a ticket.
 
 ### Enable User Feedback
 
-Toggle whether a user can provide a star rating feedback on the service they received. See more about this [here](../../setup/feedback.md).
+Toggle whether a user can provide a star rating feedback on the service they received. 
+
+- _Learn more about User Feedback [here](../../setup/feedback.md)._
 
 ## Thread Mode
 
@@ -87,7 +89,7 @@ Select if/which channel should receive an embedded message containing a summary 
 
 Discord has a limit of 50 channels to a category (and 500 channels total per server), so here is where another category can be selected for tickets to go into if the first Ticket Category is full.
 
-- _Learn more about ticket category [here](../reaction-panels.md#ticket-category)._
+- _Learn more about Ticket Category [here](../reaction-panels.md#ticket-category)._
 
 ### Store Ticket Transcripts
 
@@ -97,7 +99,7 @@ Toggle whether transcripts of each ticket are stored for later review by your st
 
 Toggle whether the `Claim` button is shown in each ticket.
 
-- _Learn more about claiming [here](./claiming.md)._
+- _Learn more about Claiming [here](./claiming.md)._
 
 ## /Open Command
 
@@ -126,7 +128,7 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 > **Note:** the message has a maximum limit of 1024 characters due to Discord limitations.
 
-- You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).
+- You may make use of placeholders in your welcome message. View a list of placeholders [here](./placeholders.md).
 
 - You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. **First**, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. **Second**, you can right click any channel name, username, message, etc and choose `Copy ID`. **Third**, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
 

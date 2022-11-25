@@ -15,7 +15,7 @@ The unique identification number of the ticket will display.
 ***
 
 The reaction panel name of the ticket will display.  
-- *Learn more about reaction panels [here](./reaction-panels.md).*
+- *Learn more about Reaction Panels [here](./reaction-panels.md).*
 
 ## User
 ***
