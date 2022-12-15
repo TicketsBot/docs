@@ -17,7 +17,7 @@ Now that the ticket system is in place, Tickets bot needs to know which of your 
 **Command:** `/addadmin @username` or `/addadmin @role`
 
 Not only does this add the specified user to the Default Team in Staff Teams, but it also gives that user full administrative privileges of the Tickets bot for your server. This is just having admin of the Tickets bot, **not your server**.
-- Having admin privileges of the bot means the user will be able to use the [online dashboard](https://panel.ticketsbot.net) fully, and control all the configuration, settings, customization of the bot, as well as see ALL of the tickets/transcripts contained there. *Only give this privilege to those you trust.*
+- Having admin privileges of the bot means the user will be able to use the [web dashboard](https://panel.ticketsbot.net) fully, and control all the configuration, settings, customization of the bot, as well as see ALL of the tickets/transcripts contained there. ***Only give this privilege to those you trust.***
 
 **Command:** `/addsupport @username` or `/addsupport @role`
  
