@@ -10,6 +10,7 @@
     - [Auto](./setup/auto.md)
     - [Individual Settings](./setup/individual.md)
   - [Reaction Panels](./setup/panels.md)
+  - [Support Staff](./setup/staff.md)
 
 - [Commands](./commands/introduction.md)
   - [Command List](./commands/commands.md)
