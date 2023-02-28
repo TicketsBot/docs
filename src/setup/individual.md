@@ -19,7 +19,7 @@ For definitions and explanations of settings, please refer to the [dashboard gui
 | /setup prefix | Change the prefix used for non slash commands (default is `t!`) |
 | /setup transcripts | Change the transcripts channel |
 | /setup use-threads | Change whether thread mode is enabled |
-| /setup welcomemessage | Change the overall welcome message |
+| /setup welcomemessage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Change the overall welcome message |
 
 
 ### Auto
