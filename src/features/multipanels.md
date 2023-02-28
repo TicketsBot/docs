@@ -76,4 +76,4 @@ If you wish to update a multi-panel at a later date, simply click the edit butto
 ![Multipanel edit](../img/multipanel_edit.webp)
 ![Multipanel edit modal](../img/multipanel_edit_modal.webp)
 
-You can also delete a multi-panel by clicking the delete button, or deleting the message containing the multi-panel in Discord. If you only delete the message in Discord, the multi-panel will continue to exist on your Dashboard and you can resubmit it to Discord if needed.
+You can also delete a multi-panel by clicking the `Delete` button, or deleting the message containing the multi-panel in Discord. If you only delete the message in Discord, the multi-panel will continue to exist on your Dashboard and you can resubmit it to Discord if needed.
