@@ -38,7 +38,7 @@ An explanation of channel categories is available [here](./dashboard.md#channel-
 
 An explanation of ticket limits is available [here](./dashboard.md#ticket-limit). The command `/setup limit` is used to configure the ticket limit.
 
-> **For example:** to change the ticket limit to `1` **-** Run `/setup limit 1`
+> **For example:** to change the per user simultaneous ticket limit to `1` **-** Run `/setup limit 1`
 
 ### Prefix
 
