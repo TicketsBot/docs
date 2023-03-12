@@ -10,7 +10,7 @@ Instead of the whole support team being added to a ticket when it is opened, the
 |--|--|
 |Tickets cannot be reopened once closed|Tickets can be reopened|
 |Transcripts only viewable on dashboard|Transcripts viewable on dashbord, and within Discord|
-|Limited to 500 channels |Unlimited threads |
+|Limited to 500 channels total, and only 50 channels in a single category|Unlimited threads |
 |All staff on support team added to ticket | Staff members must press button to join ticket |
 |Tickets can be claimed |Ticket claiming is unsupported [^note1]|
 |`/switchpanel` changes the ticket panel of an existing ticket |`/switchpanel` is unsupported [^note2]|
