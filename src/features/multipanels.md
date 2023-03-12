@@ -33,7 +33,7 @@ This is the colour on the left side of the embed. When clicked, a colour picker 
 ![Colour picker](../img/colour_picker.webp)
 
 ### Panel Channel
-This is the channel that the reaction panel will be sent in for users to react to. Therefore, this channel should be accessible to your users, and be the only message in the channel to avoid confusion.
+This is the channel that the multi-panel will be sent in for users to react to. Therefore, this channel should be accessible to your users, and be the only message in the channel to avoid confusion.
 
 **This should not be the same as your archive / transcript channel.**
 
