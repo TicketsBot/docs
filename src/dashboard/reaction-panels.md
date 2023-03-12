@@ -73,6 +73,8 @@ Upon clicking `Toggle Advanced Settings`, extra fields will be displayed:
 ### Welcome Message
 The server's welcome message can be overridden on a per-panel basis using this field. If left blank, the welcome message from the main settings page will be used.  
 
+> **Note:** the message has a maximum limit of 4096 characters due to Discord limitations.
+
 - Placeholders can be used in the welcome message. View a list of placeholders [here](./placeholders.md).  
 
 - Discord message formatting can also be used to include links to channels, emojis, roles, or usernames in the welcome message. 

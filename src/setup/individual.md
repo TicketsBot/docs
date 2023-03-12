@@ -68,7 +68,8 @@ It is recommended to read an explanation of thread mode (and how it compares to 
 
 An explanation of the welcome message is available [here](./dashboard.md#welcome-message). The command `/setup welcomemessage` is used to configure the welcome message.
 
-> **For example:** to change the welcome message to `Hello, thank you for contacting support` **-** Run `/setup welcomemessage Hello, thank you for contacting support`
+> **For example:** to change the welcome message to `Hello, thank you for contacting support` 
+> - Run `/setup welcomemessage Hello, thank you for contacting support`
 
 - You may make use of placeholders in your welcome message. You can view a list of placeholders [here](./placeholders.md).  
 
