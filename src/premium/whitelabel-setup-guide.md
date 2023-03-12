@@ -6,14 +6,14 @@ Thanks for purchasing whitelabel and supporting us!
 
 Please follow this guide **very carefully**. If you skip a single step, nothing will work - you've been warned. The process should not take more than 10 minutes, and will only need to be done once.
 
-## (Step 1 of 7) Link Patreon Account 
+## (Step 1 of 8) Link Patreon Account 
 ***
 
 If you haven't done so already, you'll need to link your Patreon and Discord accounts on [this page](https://www.patreon.com/settings/apps).
 
 Patreon has a longer guide on how to do this [here](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role).
 
-## (Step 2 of 7) Create A Bot
+## (Step 2 of 8) Create A Bot
 ***
 
 Next, we'll need to create your custom bot that Tickets will run under.
@@ -28,7 +28,7 @@ From here, you can change your bot's avatar:
 
 ![General Information](/img/whitelabel/general_information.webp)
 
-## (Step 3 of 7) Tweak Settings
+## (Step 3 of 8) Tweak Settings
 ***
 
 Next, we need to edit some very important settings.
@@ -54,7 +54,7 @@ Your settings should look as follows:
 
 ![Bot Settings](/img/whitelabel/bot_settings.webp)
 
-## (Step 4 of 7) Starting The Bot
+## (Step 4 of 8) Starting The Bot
 ***
 
 Next, head over to the [Tickets dashboard]( https://panel.ticketsbot.net/whitelabel) and select the `Whitelabel` tab on the sidebar.
@@ -65,7 +65,7 @@ Head back over to the bot tab on the Discord developer portal and copy the token
 
 ![Copy Token](/img/whitelabel/copy_token.webp)
 
-Then, paste it into the `Bot Token` field and press `Submit`:
+Then in the `Whitelabel` section of the Tickets dashboard, paste it into the `Bot Token` field and press `Submit`:
 
 ![Submit Token](/img/whitelabel/submit_token.webp)
 
@@ -73,7 +73,7 @@ You will then be presented with a message saying that the bot is now online.
 
 If you receive an error, make sure that you copied the token fully (not the client secret.) Additionally, refresh the page and check the `Error Log` table for any errors.
 
-## (Step 5 of 7) Inviting The Bot To Your Server
+## (Step 5 of 8) Inviting The Bot To Your Server
 ***
 
 Before you can invite the bot to your server, you must kick the main `Tickets#6981` bot from your server. It is **extremely** important that you do this **before** inviting your custom bot to your server. If you do not do this, you risk data loss.
@@ -88,7 +88,7 @@ Upon clicking the button, you will be taken to the normal bot invite page - sele
 
 > ### `We are not finished yet. Although the bot may be in your server, no commands or buttons will work until you complete ALL steps of the guide.`
 
-## (Step 6 of 7) Configuring Interactions
+## (Step 6 of 8) Configuring Interactions
 ***
 
 ### Do not skip this step. Your bot will not work if you skip it. 
@@ -113,14 +113,19 @@ Paste the URL into the corresponding `Interactions Endpoint URL` field and press
 
 If you are presented with the error `interactions_endpoint_url: The specified interactions endpoint URL could not be verified`, this means that you have either copied the interaction URL incorrectly, or not submitted the public key to our dashboard yet.
 
-## (Step 7 of 7) Creating Slash Commands
+## (Step 7 of 8) Creating Slash Commands
 ***
-
-### The last mandatory step is to create the commands on your bot.
 
 Simply head back to our dashboard and press the `Create Slash Commands` button. Note that they may take up to an hour to show in your server.
 
 ![Create Commands](/img/whitelabel/create_commands.webp)
+
+## (Step 8 of 8) Activating Premium Perks
+***
+
+### The last mandatory step is to activate the premium perks that come with whitelabel for your server.
+
+Go to your discord server and run the command `/premium`. You must select the command when it displays to you after typing. Make sure to choose `patreon` since that is how you paid for the whitelabel bot. **Keys are not used here.**
 
 And you're done! There are a few more **optional** steps if you wish to take them.
 
