@@ -27,8 +27,6 @@ Here you will find settings that affect the entire server, not just a specific r
 
 > **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands! No need to setup a prefix.
 
-~~You can change the command prefix from the default of `t!`. Discord will be forcing all bots to only use slash commands very soon, so don't get used to controlling the bot this way.~~
-
 ### Per User Simultaneous Ticket Limit
 
 Set the max amount of tickets a server member can have open (staff is immune to this limit.)
