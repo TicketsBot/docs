@@ -125,7 +125,11 @@ Simply head back to our dashboard and press the `Create Slash Commands` button. 
 
 ### The last mandatory step is to activate the premium perks that come with whitelabel for your server.
 
-Go to your discord server and run the command `/premium`. You must select the command when it displays to you after typing. Make sure to choose `patreon` since that is how you paid for the whitelabel bot. **Keys are not used here.**
+Go to your discord server and run the command `/premium`. You must select the command when it displays to you after typing. Make sure to choose `patreon` since that is how you paid for the whitelabel bot. **Giveaway Key is not used here.**
+
+- *If `patreon` is not a selectable option, then your premium perks are already applied to the server.*
+
+![Activate Premium Perks](/img/whitelabel/activate_premium.webp)
 
 And you're done! There are a few more **optional** steps if you wish to take them.
 
