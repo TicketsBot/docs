@@ -51,7 +51,7 @@ Toggle whether a second confirmation is required to close a ticket.
 
 ### Enable User Feedback
 
-Toggle whether a user can provide a star rating feedback on the service they received. 
+Toggle whether a user can provide a star rating feedback on the service they received.
 
 - _Learn more about User Feedback [here](../../setup/feedback.md)._
 
@@ -130,9 +130,9 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 - Placeholders can be used in the welcome message. View a list of placeholders [here](./placeholders.md).
 
-- Discord message formatting can also be used to include links to channels, emojis, roles, or usernames in the welcome message. 
-  - **First**, discord developer mode must be turned on - in your personal discord account settings > advanced > discord developer mode. 
-  - **Second**, right click any channel name, username, message, etc and choose `Copy ID`.  
+- Discord message formatting can also be used to include links to channels, emojis, roles, or usernames in the welcome message.
+  - **First**, discord developer mode must be turned on - in your personal discord account settings > advanced > discord developer mode.
+  - **Second**, right click any channel name, username, message, etc and choose `Copy ID`.
   - **Third**, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in the welcome message.
 
 The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title will show "No subject given" if one wasn't input.
