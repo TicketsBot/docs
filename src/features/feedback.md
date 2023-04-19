@@ -8,7 +8,7 @@ Tickets allows your users to provide feedback on the support they received:
 ## Enabling Feedback
 ***
 
-In order for users to be asked to rate your service, you must first enable feedback on the [web dashboard](./dashboard.md). 
+In order for users to be asked to rate your service, you must first enable feedback on the [web dashboard](https://panel.ticketsbot.net/). 
 
 Select your server and open the settings page:
 ![Enable feedback](../img/feedback_enable.webp)
@@ -34,9 +34,8 @@ You can include the following placeholders in your welcome message to display yo
 - %average_rating%
 - %rating_count%
 
-> **Note:** View more placeholders by clicking [here](./placeholders.md).
+> **Note:** View more placeholders by clicking [here](../dashboard/settings/placeholders.md).
 
 ### Viewing Individual Ticket Ratings
 You can view the ratings of individual tickets by navigating to the transcripts page on the dashboard. Next to each ticket, the rating given by the user will be shown:
 ![Individual ratings](../img/feedback_transcripts.webp)
-
