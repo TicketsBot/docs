@@ -20,8 +20,6 @@ You'll first want to pay attention to the main **Settings** card. Here you can e
 
 > **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands!
 
-~~This is the set of characters that comes before a command when not using slash commands, i.e. if you set the prefix to `t!`, you will run commands using `t!new`, `t!help`, etc. Do **not** include the command here.~~
-
 ## Ticket Limit
 
 This is the amount of tickets that a **single user** can have open **at a single time**. We usually recommend setting this to 1, but the default is 5.

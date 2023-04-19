@@ -80,7 +80,7 @@ All data types are supported, except for JSON arrays. You should pre-process you
 
 Now that we have somewhere to pull data from, we can start linking it up with Tickets!
 
-First, head over to our [dashboard](https://panel.ticketsbot.net), select any server, and then navigate to the Integrations tab in the navbar. From there, you will be able to press the "Create Integration" button:
+First, head over to our [web dashboard](https://panel.ticketsbot.net), select any server, and then navigate to the Integrations tab in the navbar. From there, you will be able to press the "Create Integration" button:
 
 ![Navigation](/img/integrations/navbar.webp)
 

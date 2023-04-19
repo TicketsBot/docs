@@ -1,8 +1,6 @@
 # SETTINGS
-
----
-
----
+***
+***
 
 Upon opening the `Settings` menu, extra sections will be displayed (with the first two being expanded):
 
