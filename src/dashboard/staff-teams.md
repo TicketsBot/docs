@@ -4,6 +4,11 @@
 
 Staff Teams can be used to further customize which of your staff members can see, claim, respond to, and close specific types of tickets. This is possible because Staff Teams get linked to individual reaction panels however you see fit. Click to learn more about [reaction panels](../dashboard/reaction-panels.md) or the [support teams input](../dashboard/reaction-panels.md/#support-teams).
 
+## Basic Video Walkthrough
+***
+
+<video src="../vid/StaffTeams.mp4" controls></video>
+
 ## Primary View
 ***
 
@@ -43,7 +48,7 @@ Select the team you wish to delete, and a red `Delete` button will appear next t
 
 ![Delete from teams](../img/staff_teams_delete.webp)
 
-# Default Team
+## Default Team
 ***
 
 The Default team cannot be deleted. Those members/roles added with the `/addadmin` and `/addsupport` commands get added to this team automatically.  

@@ -8,6 +8,11 @@ Tickets has the ability to prompt users for answers to pre-defined questions whe
 
 To set this up, you must first create a form, and then apply the form to your [reaction panel](../dashboard/reaction-panels.md). This way, you can assign a single form to multiple different types of tickets, if you choose.
 
+## Basic Video Walkthrough
+***
+
+<video src="../vid/Forms.mp4" controls></video>
+
 ## Creating the Form
 ***
 

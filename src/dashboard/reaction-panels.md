@@ -1,16 +1,18 @@
 # REACTION PANELS
-
----
-
----
+***
+***
 
 Reaction panels are embeds that users can react to in order to open a ticket with a single click:
 
 ![Panel example](../img/panel_example.webp)
 
-## Creating A Panel
+## Basic Video Walkthrough
+***
 
----
+<video src="../vid/ReactionPanels.mp4" controls></video>
+
+## Creating A Panel
+***
 
 In order to create a reaction panel, head over to the web dashboard and select your server. If unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
@@ -75,8 +77,7 @@ This is the emoji that users will click in order to open a ticket. The emoji can
 Custom emojis from your server can be used by clicking the toggle to show green instead of grey. When toggled on, the input field will show you a list of your available emojis to choose from.
 
 ## Advanced Settings
-
----
+***
 
 Upon clicking `Toggle Advanced Settings`, extra fields will be displayed:
 
@@ -129,8 +130,7 @@ Input a URL link to an image here, it will display to the **right of the welcome
 - _File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input._
 
 ## Completion
-
----
+***
 
 Once the reaction panel has been configured, click `Submit` and the panel will be created in the server. A success message should be shown in the bottom right hand corner of the screen if successful, or an appropriate error message if there was a mistake:
 
@@ -139,8 +139,7 @@ Once the reaction panel has been configured, click `Submit` and the panel will b
 - If any fields are left blank, the default values will be used.
 
 ## Editing
-
----
+***
 
 Reaction panels can be edited at a later date. Simply click the `Edit` button in the list of panels and the editing modal will be opened:
 ![Panel edit](../img/panel_edit.webp)

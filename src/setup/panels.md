@@ -6,6 +6,11 @@ Reaction panels are embeds that users can react to in order to open a ticket wit
 
 ![Panel example](../img/panel_example.webp)
 
+## Basic Video Walkthrough
+***
+
+<video src="../vid/ReactionPanels.mp4" controls></video>
+
 ## Creating A Panel
 ***
 
