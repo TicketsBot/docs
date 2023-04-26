@@ -2,13 +2,12 @@
 ***
 ***
 
-| General Commands&nbsp; &nbsp; &nbsp;| Description |  
+| General Commands | Description |  
 | -- | -- |  
 | /about | Information about the bot |
 | /help | Displays a list of commands |
 | /invite | Provides an invite link for the bot |
-| /jumptotop | Displays a button to click and will automatically scroll to the top of the ticket |
-| /vote | Gives a link to vote for free premium beneftis |
+| /vote | Gives a link to vote for free premium beneftis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 
 | Ticket Commands | Description |
 | -- | -- |  
@@ -16,6 +15,7 @@
 | /claim | Assigns a single staff member to the current ticket |
 | /close (reason) | Closes the current ticket |
 | [/closerequest](../features/close-requests.md) (close_delay) (reason) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Sends a message asking the ticket opener to approve or deny closing of the ticket |
+| /jumptotop | Displays a button to click and will automatically scroll to the top of the ticket |
 | /on-call | Toggles whether the user of command will be added and pinged to all new thread mode tickets |
 | /open (subject) | Opens a new ticket |
 | /remove (user) | Removes a user from the current ticket |

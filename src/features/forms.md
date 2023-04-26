@@ -6,7 +6,12 @@ Tickets has the ability to prompt users for answers to pre-defined questions whe
 
 ![Example](/img/forms/example.webp)
 
-To set this up, you must first create a form, and then apply the form to your reaction panel. This way, you can assign a single form to multiple different types of tickets, if you choose.
+To set this up, you must first create a form, and then apply the form to your [reaction panel](../dashboard/reaction-panels.md). This way, you can assign a single form to multiple different types of tickets, if you choose.
+
+## Basic Video Walkthrough
+***
+
+<video src="../vid/Forms.mp4" controls></video>
 
 ## Creating the Form
 ***
@@ -24,6 +29,14 @@ You can now create your first form. Enter a name for it, and press `Create`:
 Next, select your form from the `Manage Forms` dropdown list, and add up to 5 inputs. Enter a label for the question, some placeholder text, and select the type of input:
 
 ![Input Creation](../img/forms/inputs.webp)
+
+> **Note the discord imposed limitations for forms:**
+> - Maximum of 5 inputs per form
+> - Currently only supports text input style
+> - Maximum character limits
+>   - Name - 45
+>   - Labels - 45
+>   - Placeholder - 100
 
 Make sure to save your inputs.
 Your form has now been created. In order to show it to users, you must assign it to a ticket panel.

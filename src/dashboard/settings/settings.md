@@ -1,8 +1,6 @@
 # SETTINGS
-
----
-
----
+***
+***
 
 Upon opening the `Settings` menu, extra sections will be displayed (with the first two being expanded):
 
@@ -27,13 +25,11 @@ Here you will find settings that affect the entire server, not just a specific r
 
 > **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands! No need to setup a prefix.
 
-~~You can change the command prefix from the default of `t!`. Discord will be forcing all bots to only use slash commands very soon, so don't get used to controlling the bot this way.~~
-
 ### Per User Simultaneous Ticket Limit
 
 Set the max amount of tickets a server member can have open (staff is immune to this limit.)
 
-- _This is total nuber of tickets **per member**, not per panel._
+- _This is total number of tickets **per member**, not per panel._
 
 ### Language
 
@@ -53,7 +49,7 @@ Toggle whether a second confirmation is required to close a ticket.
 
 ### Enable User Feedback
 
-Toggle whether a user can provide a star rating feedback on the service they received. 
+Toggle whether a user can provide a star rating feedback on the service they received.
 
 - _Learn more about User Feedback [here](../../setup/feedback.md)._
 
@@ -128,11 +124,14 @@ The welcome message is the message displayed in the Ticket as soon as the user o
 
 ![Welcome message](../../img/welcome_message.webp)
 
-> **Note:** the message has a maximum limit of 1024 characters due to Discord limitations.
+> **Note:** the message has a maximum limit of 4096 characters due to Discord limitations.
 
-- You may make use of placeholders in your welcome message. View a list of placeholders [here](./placeholders.md).
+- Placeholders can be used in the welcome message. View a list of placeholders [here](./placeholders.md).
 
-- You may also use discord message formatting to include links to channels, emojis, roles, or usernames in your welcome message. **First**, you will need to have discord developer mode turned on - in your personal discord account settings > advanced > discord developer mode. **Second**, you can right click any channel name, username, message, etc and choose `Copy ID`. **Third**, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in your welcome message.
+- Discord message formatting can also be used to include links to channels, emojis, roles, or usernames in the welcome message.
+  - **First**, discord developer mode must be turned on - in your personal discord account settings > advanced > discord developer mode.
+  - **Second**, right click any channel name, username, message, etc and choose `Copy ID`.
+  - **Third**, use the `structure` section of [discord's messge formatting chart](https://discord.com/developers/docs/reference#message-formatting) to include it in the welcome message.
 
 The title of the embed will either be based off of the subject provided by the user when using `/open [Subject]`, or the title will show "No subject given" if one wasn't input.
 

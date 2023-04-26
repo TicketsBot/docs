@@ -6,6 +6,11 @@ Reaction panels are embeds that users can react to in order to open a ticket wit
 
 ![Panel example](../img/panel_example.webp)
 
+## Basic Video Walkthrough
+***
+
+<video src="../vid/ReactionPanels.mp4" controls></video>
+
 ## Creating A Panel
 ***
 
@@ -15,7 +20,7 @@ Once on your server's main settings page, select `Reaction Panels` in the top na
 
 ![Reaction panel page](../img/panels_navbar.webp)
 
-Focus on the *left* side of the screen. The right side are settings for combining different panels into a single message.
+Focus on the *left* side of the screen. The right side are settings for combining different panels into a single message (known as [Multi-Panels](../features/multipanels.md).)
 
 Draw your attention to the `Create Panel` card. Configure the panel's appearance here:
 

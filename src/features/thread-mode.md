@@ -1,4 +1,7 @@
-# Threads
+# THREAD MODE
+***
+***
+
 We now support using private threads for tickets! This is a new *optional* mode for the bot that drastically changes how tickets operate.	
 
 Instead of the whole support team being added to a ticket when it is opened, the thread starts out with *no staff members*. A button is then sent to your *ticket notification channel* which staff members click to be added to the thread:
@@ -6,6 +9,8 @@ Instead of the whole support team being added to a ticket when it is opened, the
 ![Example](/img/ticket_notification.webp)
 
 ## Channel vs Thread Comparison
+***
+
 |Channels|Threads |
 |--|--|
 |Tickets cannot be reopened once closed|Tickets can be reopened|
@@ -22,11 +27,15 @@ Instead of the whole support team being added to a ticket when it is opened, the
 [^note2]: This is due to Discord's permission management internals being very different for threads
 
 ## On-Call
+***
+
 Thread mode introduces a new command: `/on-call`. When a staff member runs this command, they will be assigned roles marking them as on call, until they run the command again. When a new ticket is opened, the on call roles are pinged in the ticket, instantly adding all currently on call staff members to the ticket.
 
 Note: When a staff member becomes on call, they will **not** be added to any existing tickets. They must join them via the ticket notification channel as normal.
 
 ## How do I enable thread mode?
+***
+
 You can enable threads directly within Discord, by using the command `/setup use-threads`, like so:
 
 ![Use Threads Command](/img/threads_command.webp)
@@ -36,6 +45,8 @@ Alternately, you can enable threads via the settings page of the dashboard:
 ![Settings page](/img/threads_enable_dashboard.webp)
 
 ## FAQ
+***
+
 ### Which mode should I use?
 If you run a server with a small team, we would likely recommend sticking with channel mode. If you run a server with a heavy focus on 1-on-1 support or claiming, we would recommend thread mode. Nevertheless, if you require any of the additional features like reopening tickets, you must use thread mode.
 
