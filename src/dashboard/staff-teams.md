@@ -7,7 +7,7 @@ Staff Teams can be used to further customize which of your staff members can see
 ## Basic Video Walkthrough
 ***
 
-<video src="../vid/StaffTeams.mp4" controls></video>
+<video src="../vid/StaffTeams.mp4" controls poster="../img/video_thumbnails/Thumbnail_Staff_Teams.webp"></video>
 
 ## Primary View
 ***

@@ -11,7 +11,7 @@ To set this up, you must first create a form, and then apply the form to your [r
 ## Basic Video Walkthrough
 ***
 
-<video src="../vid/Forms.mp4" controls></video>
+<video src="../vid/Forms.mp4" controls poster="../img/video_thumbnails/Thumbnail_Forms.webp"></video>
 
 ## Creating the Form
 ***
