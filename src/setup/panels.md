@@ -88,7 +88,7 @@ The server's welcome message can be overridden on a per-panel basis using this f
 ### Naming Scheme
 This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the `Settings` portion of the Dashboard. If it's flipped to grey, a custom scheme can be setup.  
 
-- Placeholders can be used in the custom naming scheme. View a list of placeholders [here](./placeholders.md#custom-naming-scheme-placeholders).
+- Placeholders can be used in the custom naming scheme. View a list of placeholders [here](../miscellaneous/placeholders.md#custom-naming-scheme-placeholders).
 
 ### Mention On Open
 Specify a list of roles/users to mention after the ticket is opened. 
