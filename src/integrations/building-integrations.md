@@ -132,6 +132,24 @@ We have created a secret, called `api_key`, which we are able to use in either h
 
 ![Secrets example](/img/integrations/secrets_example.webp)
 
+### Secret Validation
+Sometimes, users may provide a secret value in an invalid format, or otherwise incorrect way. You may optionally define a validation URL that we will send an HTTP POST to every time a user adds your integration to a server to dynamically validate their secrets. The request will contain a JSON body containing the user's secret values:
+```json
+{
+  "secret_name": "value",
+  "secret2_name": "abcde"
+}
+```
+
+If the values satisfy your constraints, simply respond with any 2XX status code. The response body does not matter, so it is recommended to use HTTP 204 No Content with an empty body.
+
+If the value does not satisfy your constraints, then respond with any non-2XX status code - HTTP 400 Bad Request is well suited. You may also provide a JSON response body with a single "error" field containing a message to show to the user:
+```json
+{
+  "error": "Your API key is invalid."
+}
+```
+
 ### Placeholders
 
 Next, we are onto creating the placeholders themselves. Here, you define how each value in your JSON response should be mapped to the variables that can be used in welcome messages.
