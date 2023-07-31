@@ -2,7 +2,7 @@
 ***
 ***
 
-First, head over to the dashboard at [panel.ticketsbot.net](https://panel.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
+First, head over to the dashboard at [dashboard.ticketsbot.net](https://dashboard.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.
 
 ![Login](../img/login.webp)
 

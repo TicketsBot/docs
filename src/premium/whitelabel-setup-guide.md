@@ -57,7 +57,7 @@ Your settings should look as follows:
 ## (Step 4 of 8) Starting The Bot
 ***
 
-Next, head over to the [Tickets dashboard]( https://panel.ticketsbot.net/whitelabel) and select the `Whitelabel` tab on the sidebar.
+Next, head over to the [Tickets dashboard]( https://dashboard.ticketsbot.net/whitelabel) and select the `Whitelabel` tab on the sidebar.
 
 First, we have to submit the bot's token. This is like a password to the bot. **Never send this token to anyone, even in our support server.**
 

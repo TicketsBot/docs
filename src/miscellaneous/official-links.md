@@ -9,7 +9,7 @@
 [invite.ticketsbot.net](https://invite.ticketsbot.net/)
 
 ### Dashboard
-[panel.ticketsbot.net](https://panel.ticketsbot.net/)
+[dashboard.ticketsbot.net](https://dashboard.ticketsbot.net/)
 
 ### Documentation
 [docs.ticketsbot.net](https://docs.ticketsbot.net/)

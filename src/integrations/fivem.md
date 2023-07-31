@@ -4,7 +4,7 @@
 
 If you run a FiveM server, you can use our FiveM integration to fetch the FiveM IDs, usernames, Steam IDs and more of users who open tickets in your server!
 
-To activate the FiveM integration in your server, head over to our [web dashboard](https://panel.ticketsbot.net) and select your Discord server. Then, select the "Integrations" tab in the navbar, find the FiveM integration, and press "Add to server":
+To activate the FiveM integration in your server, head over to our [web dashboard](https://dashboard.ticketsbot.net) and select your Discord server. Then, select the "Integrations" tab in the navbar, find the FiveM integration, and press "Add to server":
 
 ![Integrations list](/img/integrations/fivem/integrations_page.webp)
 

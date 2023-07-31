@@ -8,7 +8,7 @@ Tickets allows your users to provide feedback on the support they received:
 ## Enabling Feedback
 ***
 
-In order for users to be asked to rate your service, you must first enable feedback on the [web dashboard](https://panel.ticketsbot.net/). 
+In order for users to be asked to rate your service, you must first enable feedback on the [web dashboard](https://dashboard.ticketsbot.net/). 
 
 Select your server and open the settings page:
 ![Enable feedback](../../img/feedback_enable.webp)

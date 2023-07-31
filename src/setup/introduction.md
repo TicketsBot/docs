@@ -13,7 +13,7 @@ Quickly get the absolute basic functions of a ticket system for your server in 5
 
 **1.** [Invite the bot](https://invite.ticketsbot.net)   
 **2.** Make yourself admin of the bot `/addadmin @YourUsername`  
-**3.** Go to [online dashboard](https://panel.ticketsbot.net)  
+**3.** Go to [online dashboard](https://dashboard.ticketsbot.net)  
 **4.** Make a [reaction panel](../setup/panels.md)  
 **5.** Go back to discord and add your staff as support so they can see and answer tickets `/addsupport @TheirUsername` or `/addsupport @TheirRole` 
 

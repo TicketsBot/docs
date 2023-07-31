@@ -4,7 +4,7 @@
 
 If you use Chargebee for billing/subscription management, the Chargebee Integration allows you to fetch customer info and basic subscription status in tickets.
 
-To activate the Chargebee integration in your server, head over to our [web dashboard](https://panel.ticketsbot.net) and select your Discord server. Then, select the "Integrations" tab in the navbar, find the Chargebee integration, and press "Add to server":
+To activate the Chargebee integration in your server, head over to our [web dashboard](https://dashboard.ticketsbot.net) and select your Discord server. Then, select the "Integrations" tab in the navbar, find the Chargebee integration, and press "Add to server":
 
 ![Integrations list](/img/integrations/chargebee/integrations_page.webp)
 

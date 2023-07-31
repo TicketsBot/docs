@@ -16,7 +16,7 @@ To set this up, you must first create a form, and then apply the form to your [r
 ## Creating the Form
 ***
 
-First, head over to the [dashboard](https://panel.ticketsbot.net) and select your server.
+First, head over to the [dashboard](https://dashboard.ticketsbot.net) and select your server.
 
 Then, select the `Forms` tab in the navigation bar:
 

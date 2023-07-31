@@ -21,7 +21,7 @@ A new ticket will be created with the user who sent the message. The bot will se
 ***
 
 ### Required Permission Level
-To limit usage of this functionality to staff members: visit the [web dashboard](https://panel.ticketsbot.net/), select your server, and take a look at the `Settings` page.
+To limit usage of this functionality to staff members: visit the [web dashboard](https://dashboard.ticketsbot.net/), select your server, and take a look at the `Settings` page.
 
 You will see a dropdown menu labelled `Required Permission Level` under the `Context Menu (Start Ticket Dropdown)` heading. Adjust the setting to your wish, and then press the `Submit` button.
 
