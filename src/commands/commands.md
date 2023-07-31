@@ -35,8 +35,8 @@
 | /language (language) | Changes the language the bot messages are displayed in |
 | /panel | Provides a link to create a reaction panel for users to open tickets |
 | /premium | Activates premium benefits after purchasing (choose patreon on select menu) |
-| /removeadmin&nbsp;(user_or_role) | Revokes a user's or role's admin priveledges |
-| /removesupport (user_or_role) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Revokes a user's or role's support representative priviledges |
+| /removeadmin (user_or_role) | Revokes a user's or role's admin priveledges |
+| /removesupport (user_or_role) | Revokes a user's or role's support representative priviledges |
 | /setup auto | Bot will make a very basic configuration (no reaction panels - you'll still want to customize on dashboard) |
 | /setup prefix | Change the prefix used for non slash commands (default is `t!`) **NOTE:** Prefix commands are no longer supported, must use slash commands |
 | /setup welcomemessage | Change the overall welcome message |

@@ -46,10 +46,6 @@ An explanation of ticket limits is available [here](./dashboard.md#ticket-limit)
 
 > **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands! No need to setup a prefix.
 
-~~An explanation of prefixes is available [here](./dashboard.md#prefix). The command `/setup prefix` is used to configure the prefix.~~
-
-~~For example: to change the prefix to `-`, run `/setup prefix -`~~
-
 ### Transcripts
 
 An explanation of transcript channels is available [here](./dashboard.md#transcripts-channel). The command `/setup transcripts` is used to configure the transcripts channel.
