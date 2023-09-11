@@ -121,7 +121,7 @@ Flipping the `Use Embed` toggle to green will display some more sections:
 
 ### Use Slash Command
 - Type `/tag` and select the `/tag id:` from menu, or type the full `/tag [tagname]`  
-- Send the messgae
+- Send the message
 
 ### Bot Responds
 - Bot will send the proper tag that was created under that tagname
