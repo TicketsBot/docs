@@ -94,7 +94,7 @@ The server's welcome message can be overridden on a per-panel basis using this f
 
 > **Note:** the message has a maximum limit of 4096 characters due to Discord limitations.
 
-- Placeholders can be used in the welcome message. View a list of placeholders [here](./placeholders.md).
+- Placeholders can be used in the welcome message. View a list of placeholders [here](../miscellaneous/placeholders.md).
 
 - Discord message formatting can also be used to include links to channels, emojis, roles, or usernames in the welcome message.
   - **First**, discord developer mode must be turned on - in your personal discord account settings > advanced > discord developer mode.
@@ -105,7 +105,7 @@ The server's welcome message can be overridden on a per-panel basis using this f
 
 This toggle can be used to change the naming scheme of the ticket channels. If it's left on green, it will use the naming scheme set in the `Settings` portion of the Dashboard. If it's flipped to grey, a custom scheme can be setup.
 
-- Placeholders can be used in the custom naming scheme. View a list of placeholders [here](./placeholders.md#custom-naming-scheme-placeholders).
+- Placeholders can be used in the custom naming scheme. View a list of placeholders [here](../miscellaneous/placeholders.md#custom-naming-scheme-placeholders).
 
 ### Mention On Open
 
