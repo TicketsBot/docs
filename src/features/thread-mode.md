@@ -21,6 +21,7 @@ Instead of the whole support team being added to a ticket when it is opened, the
 |`/switchpanel` changes the ticket panel of an existing ticket |`/switchpanel` is unsupported [^note2]|
 |No concept of on-call staff|Staff can be marked as on-call to automatically be pinged and added to tickets|
 |No spaces in channel names|Spaces in channel names permitted: e.g. `Ticket 1234`
+|Can use /notes for a private thread for staff to talk in|Cannot use /notes due to Discord limitation|
 
 [^note1]: Staff members must individually click a button to join the ticket, so the behaviour is replicated
 
