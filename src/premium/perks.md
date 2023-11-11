@@ -15,7 +15,7 @@
 | Customise Embed Colour | - | X | X |
 | Live Message Updates on the Dashboard | - | X | X |
 | Send Messages Directly from the Dashboard | - | X | X |
+| Exit Surveys | - | X | X |
 | Customize Bot Name | - | - | X |
 | Customize Bot Avatar | - | - | X |
 | Customize Bot Status | - | - | X |
-| Exit Surveys | - | X | X |
