@@ -1,10 +1,7 @@
-# PLACEHOLDERS
-***
-***
-
-## Welcome Message Placeholders:
+# Placeholders
 ***
 
+## Welcome Message Placeholders
 ### Built-in
 
 \* = This is a premium feature. Learn more about premium [here](https://ticketsbot.net/premium).
@@ -47,8 +44,6 @@ These placeholders are available if the user has linked their Roblox account via
 | %roblox_account_created% | The date on which the user's Roblox account was created, e.g. `7 January 2019` |
 
 ## Custom Naming Scheme Placeholders:
-***
-
 |Placeholder|Description|
 |--|--|
 | %id% | Display the unique ticket id# |

@@ -1,5 +1,4 @@
-# Bot Configuration: WEB DASHBOARD
-***
+# Bot Configuration: Web Dashboard
 ***
 
 First, head over to the dashboard at [dashboard.ticketsbot.net](https://dashboard.ticketsbot.net). You'll be asked to login with Discord - simply click `Authorize` and you'll be taken back to the dashboard.

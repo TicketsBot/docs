@@ -1,5 +1,4 @@
-# FREE vs PREMIUM vs WHITELABEL
-***
+# Tier Comparison
 ***
 
 | Feature | Free | Premium | Whitelabel |

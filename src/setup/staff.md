@@ -1,5 +1,4 @@
-# SUPPORT STAFF
-***
+# Support Staff
 ***
 
 Now that the ticket system is in place, Tickets bot needs to know which of your staff should have access to the tickets (and the online dashboard settings - if desired.)

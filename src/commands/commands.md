@@ -1,5 +1,4 @@
-# COMMANDS
-***
+# Command List
 ***
 
 | General Commands | Description |  

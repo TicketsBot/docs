@@ -1,5 +1,4 @@
-# CLOSE REQUESTS
-***
+# Close Requests
 ***
 
 Another unique feature of Tickets is close requests.
@@ -13,7 +12,6 @@ If the user chooses to deny the request, the message will be updated:
 ![Denied](../img/close_request_deny.webp)
 
 ## Timeouts
-***
 
 Additionally, you can specify a time (in hours) after which the ticket will be closed automatically if the user has not responded, and a reason for closure of the ticket:
 
@@ -22,7 +20,4 @@ Additionally, you can specify a time (in hours) after which the ticket will be c
 If a close delay is not specified, the ticket will not be closed until the user accepts the request.
 
 ## Notes
-***
-
 - If you exclude a ticket from being automatically closed via `/autoclose exclude`, close request timeouts will not apply, even if provided.
-

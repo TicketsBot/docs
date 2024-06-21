@@ -1,12 +1,9 @@
-# TAGS
-***
+# Tags
 ***
 
 Tags are pre-defined snippets of text sent by the bot. These can be useful for quickly sending responses to commonly asked questions or concerns.
 
 ## Primary View
-***
-
 Upon opening the `Tags` menu, there will be one main area that displays any tags that have been created and a button to create new tags.
 
 ![Tags card](../img/tags_card.webp)
@@ -16,8 +13,6 @@ When there are created tags, each tag name will show and some action buttons - `
 ![Tags card with tag examples](../img/tags_card_example.webp)
 
 ## Creating a Tag
-***
-
 Clicking the `+ Create Tag` button will bring up the Tag Editor.
 
 ![Tag editor basic](../img/tags_editor_basic.webp)
@@ -33,66 +28,66 @@ This is how the bot will respond when the command is used.
 ![Tag message example](../img/tags_message_example.webp)
 
 ## Use Embed
-***
-
-- *Bot responses may also be in customizable embeds complete with images, if desired.*
+- *Bot responses may also be in customisable embeds complete with images, if desired.*
 
 Flipping the `Use Embed` toggle to green will display some more sections:
-- [Embed](#embed)
-- [Author](#author)
-- [Images](#images)
-- [Footer](#footer)
-- [Fields](#fields)
+- [Tags](#tags)
+  - [Primary View](#primary-view)
+  - [Creating a Tag](#creating-a-tag)
+    - [Tag ID](#tag-id)
+    - [Message Content](#message-content)
+  - [Use Embed](#use-embed)
+    - [Embed](#embed)
+    - [Author](#author)
+    - [Images](#images)
+    - [Footer](#footer)
+    - [Fields](#fields)
+  - [Using a Tag](#using-a-tag)
 
 ![Tag editor advanced](../img/tags_editor_advanced.webp)
 
 ### Embed
-
- - ### Embed Colour
+ - **Embed Colour**
    This is the colour on the left side of the embed. When clicked, a colour picker will open as shown below:
 
 ![Colour picker](../img/colour_picker.webp)
-
- - ### Title
+ - **Title**
    The embed title is the bold text at the *top* of the embed. The embed title has a maximum length of 255 characters. 
 
- - ### Title URL (optional)
+ - **Title URL (optional)**
    The embed title can be turned into a hyperlink to a webpage by filling out this input.
 
- - ### Description
+ - **Description**
    This is the message content of the embed.
 
 ### Author
-
- - ### Author Name
+ - **Author Name**
    This will display **above the embed title**.
 
- - ### Author Icon URL (optional)
+ - **Author Icon URL (optional)**
    This will display to the **left of the author name**.
 
- - ### Author URL (optional)
+ - **Author URL (optional)**
    The author name can be turned into a hyperlink to a webpage by filling out this input.
 
 ### Images
-
- - ### Large Image URL
+ - **Large Image URL**
     Input a URL link to an image here, it will display at the **bottom of the embed**.  
    - *File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input.*
 
- - ### Small Image URL
+ - **Small Image URL**
     Input a URL link to an image here, it will display at the **top right of the embed**.  
    - *File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input.*
 
 ### Footer
-
- - ### Footer Text
+ - **Footer Text**
     Will display **below the Large Image at the bottom of the embed**. This text is a little smaller than the Description.
 
- - ### Footer Icon URL (optional)
+ - **Footer Icon URL (optional)**
     Input a URL link to an image here, it will display to the **left of the Footer Text**.  
    - *File path MUST end in .png - easy trick is to send the image as a message in a discord channel, then right click the message and choose "Copy Link." Paste link into the input.*
 
- - ### Footer Timestamp (optional)
+ - **Footer Timestamp (optional)**
     Choose a date here, it will display **after the Footer Text**.
 
 ### Fields
@@ -102,14 +97,14 @@ Flipping the `Use Embed` toggle to green will display some more sections:
 |: -- :|
 | example tag embed with Fields not inline |
 
- - ### Field Name
+ - **Field Name**
     This is the title of the new field section that will appear in the embed. It will display in bold.
 
- - ### Inline
-    **Checked** = Fields display horizontally (columns on the same row)  
-    **Unchecked** = Fields display vertically
+ - **Inline**
+    *Checked* = Fields display horizontally (columns on the same row)  
+    *Unchecked* = Fields display vertically
 
- - ### Field Value
+ - **Field Value**
     This is the description section of the new field that will appear in the embed.
 
 | ![Tags full example with inline fields](../img/tags_message_inline.webp) |
@@ -117,11 +112,4 @@ Flipping the `Use Embed` toggle to green will display some more sections:
 | example tag embed with Fields inline |
 
 ## Using a Tag
-***
-
-### Use Slash Command
-- Type `/tag` and select the `/tag id:` from menu, or type the full `/tag [tagname]`  
-- Send the message
-
-### Bot Responds
-- Bot will send the proper tag that was created under that tagname
+Within Discord, use the `/tag` command by typing `/tag` and selecting the tag ID from menu, or type the full `/tag [tagname]`  

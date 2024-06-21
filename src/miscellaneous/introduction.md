@@ -1,8 +1,4 @@
-# MISCELLANEOUS
-***
-***
-***
+# Miscellaneous
+This chapter contains all other documents which do not suit the other chapters.
 
-In this chapter, you will find info that either doesn't fit too well in the other chapters, or info we wanted to have easily accessible and separate from full chapters.
-
-Use the sidebar to navigate the chapter.
+Use the sidebar to navigate this chapter.

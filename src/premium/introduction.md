@@ -1,8 +1,4 @@
-# PREMIUM
-***
-***
-***
+# Premium
+This chapter provides information regarding the premium tiers offered for the bot.
 
-This chapter contains information about our premium tiers.
-
-Please use the sidebar to navigate this chapter.
+Use the sidebar to navigate this chapter.

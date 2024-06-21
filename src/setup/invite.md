@@ -1,5 +1,4 @@
-# INVITING THE BOT  
-***
+# Inviting The Bot  
 ***
 
 To get started with adding Tickets to your server, visit [invite.ticketsbot.net](https://invite.ticketsbot.net): you'll be redirected to Discord automatically.  

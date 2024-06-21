@@ -1,5 +1,4 @@
-# Bot Configuration: AUTO
-***
+# Bot Configuration: Automatic Setup
 ***
 
 Tickets provides an option to automatically create a basic configuration for you. This isn't recommended since the settings are unlikely to be to your preference, and a reaction panel is **not** automatically created. For information on creating reaction panels, see our guide [here](./panels.md).

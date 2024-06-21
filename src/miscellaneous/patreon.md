@@ -1,5 +1,4 @@
-# PATREON LINKS
-***
+# Patreon Guides
 ***
 
 ### How to Cancel Subscription
