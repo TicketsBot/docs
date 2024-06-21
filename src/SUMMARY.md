@@ -12,7 +12,7 @@
 
 - [Commands](./commands/introduction.md)
   - [Command List](./commands/commands.md)
-    - [Add Admin/Support](./commands/add-admin-support.md)
+    - [Add Admin / Support](./commands/add-admin-support.md)
     - [Close Requests](./commands/close-requests.md)
 
 - [Dashboard](./dashboard/introduction.md)
@@ -53,3 +53,4 @@
   - [Patreon Links/Articles](./miscellaneous/patreon.md)
   - [Placeholders](./miscellaneous/placeholders.md)
   - [Translate the Bot](./miscellaneous/languages.md)
+  - [Dashboard: "No Permission"](./miscellaneous/dashboard-no-permission.md)

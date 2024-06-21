@@ -1,5 +1,5 @@
 # Blacklist
----
+***
 
 Upon opening the `Blacklist` tab, there will be one main area that displays two buttons and any users/roles that have been blacklisted in your discord server.
 
