@@ -48,5 +48,4 @@ Select the team you wish to delete, and a red `Delete` button will appear next t
 ## Default Team
 The Default team cannot be deleted. Those members/roles added with the `/addadmin` and `/addsupport` commands get added to this team automatically.  
 - *Learn more about these two commands [here](../commands/add-admin-support.md).*  
-- *Learn more about the rest of the commands [here](../commands/basic-commands.md)*
-- 
+- *Learn more about the rest of the commands [here](../commands/commands.md)*
