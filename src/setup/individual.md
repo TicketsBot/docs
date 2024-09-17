@@ -13,7 +13,6 @@ For definitions and explanations of settings, please refer to the [dashboard gui
 | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | /setup auto                                                                  | Bot will make a very basic configuration (no reaction panels - you'll still want to customize on dashboard) |
 | /setup limit                                                                 | Change the quantity of tickets a single user can have open at the same time                                 |
-| /setup prefix                                                                | Change the prefix used for non slash commands (default is `t!`)                                             |
 | /setup transcripts                                                           | Change the transcripts channel                                                                              |
 | /setup use-threads                                                           | Change whether thread mode is enabled                                                                       |
 
