@@ -16,6 +16,9 @@ For definitions and explanations of settings, please refer to the [dashboard gui
 | /setup transcripts                                                           | Change the transcripts channel                                                                              |
 | /setup use-threads                                                           | Change whether thread mode is enabled                                                                       |
 
+### Prefix
+> **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands! No need to setup a prefix.
+
 ### Auto
 See our guide on auto setup [here](./auto.md).
 
@@ -23,9 +26,6 @@ See our guide on auto setup [here](./auto.md).
 An explanation of ticket limits is available [here](./dashboard.md#ticket-limit). The command `/setup limit` is used to configure the ticket limit.
 
 > **For example:** to change the per user simultaneous ticket limit to `1` **-** Run `/setup limit 1`
-
-### Prefix
-> **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands! No need to setup a prefix.
 
 ### Transcripts
 An explanation of transcript channels is available [here](./dashboard.md#transcripts-channel). The command `/setup transcripts` is used to configure the transcripts channel.
