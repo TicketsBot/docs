@@ -2,7 +2,8 @@
 ***
 ***
 
-| Feature | Free | Voting \nPremium |  Premium | Whitelabel |
+| Feature | Free | Voting 
+Premium |  Premium | Whitelabel |
 |--|--|--|--|--|
 | Unlimited Tickets | X | X | X | X |
 | Automatic Ticket Archives | X | X | X | X |
