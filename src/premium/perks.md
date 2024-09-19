@@ -8,8 +8,8 @@
 | Forms | X | X | X | X |
 | Ticket Claiming | X | X | X | X |
 | Max Ticket Panels | 3 | 3 | Unlimited | Unlimited |
-| Message Footer Branding Removal | - | X | X | X |
 | Access to Statistics | - | X | X | X |
+| Message Footer Branding Removal | - | X | X | X |
 | Access to Autoclose | - | - | X | X |
 | Exit Surveys | - | - | X | X |
 | Customise Embed Colour | - | - | X | X |
