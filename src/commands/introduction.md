@@ -1,8 +1,4 @@
-# COMMANDS
-***
-***
-***
+# Commands
+This chapter provides some information regarding key commands.
 
-In this chapter, we will highlight the commands that can be used with Tickets bot.
-
-Use the sidebar to navigate the chapter.
+Use the sidebar to navigate this chapter.

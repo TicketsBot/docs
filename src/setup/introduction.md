@@ -1,13 +1,11 @@
-# SETUP  
-***
-***
+# Setup  
 ***
 
 Thanks for choosing Tickets as your support solution! In this guide we'll teach you how to get up and running in no time at all.  
   
 > If you need any assistance in the process, feel free to join our [Discord server](https://discord.com/invite/VtV3rSk) and open a ticket to talk to our support staff.  
 
-### FOR THOSE WITH EXPERIENCE USING DISCORD BOTS
+### For those with previous experience configuring Discord bots
 ***
 Quickly get the absolute basic functions of a ticket system for your server in 5 steps:
 
@@ -19,7 +17,7 @@ Quickly get the absolute basic functions of a ticket system for your server in 5
 
 > It is **HIGHLY RECOMMENDED** to continue reading through SETUP and the rest of the documentation, as these steps only provide the most basic working ticket system. There are many ways to customize the system, messages, notifications, and support staff.
 
-### FOR THOSE NEW TO DISCORD BOTS
+### For beginners with Discord bots
 ***
 
 You'll need to start by inviting Tickets to your server. 

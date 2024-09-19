@@ -1,5 +1,4 @@
-# SUPPORT STAFF
-***
+# Support Staff
 ***
 
 Now that the ticket system is in place, Tickets bot needs to know which of your staff should have access to the tickets (and the online dashboard settings - if desired.)
@@ -8,10 +7,7 @@ Now that the ticket system is in place, Tickets bot needs to know which of your 
 > - Staff members handle **ALL** tickets
 > - Staff members handle **SPECIFIC** tickets
 
-
 ## Staff members handle ALL tickets
-***
-
 > Setting the support staff in this scenario, is recommended via slash commands. 
 <!-- A quick explanation of which to use, and why, can be found [here](../commands/add-admin-support.md). -->
 **Command:** `/addadmin @username` or `/addadmin @role`
@@ -25,5 +21,4 @@ This adds the specified user to the Default Team in Staff Teams. The only thing 
 
 ## Staff members handle SPECIFIC tickets
 ***
-
 > Setting the support staff in this scenario can only be accomplished via the [web dashboard](https://dashboard.ticketsbot.net). A guide on this can be found [here](../dashboard/staff-teams.md).

@@ -1,8 +1,4 @@
-# FEATURES
-***
-***
-***
+# Features
+This chapter provides some details about the core features of the bot.
 
-In this chapter, we will highlight some unique features of the bot that set it aside from others.
-
-Use the sidebar to navigate the chapter.
+Use the sidebar to navigate this chapter.

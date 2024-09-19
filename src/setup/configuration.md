@@ -1,5 +1,4 @@
-# BOT CONFIGURATION
-***
+# Bot Configuration
 ***
 
 Let's start getting the bot ready for use in your server!

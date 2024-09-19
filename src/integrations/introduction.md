@@ -1,8 +1,4 @@
-# INTEGRATIONS
-***
-***
-***
+# Integrations
+This chapter provides information regarding integrations, and how to build them.
 
-This chapter contains information about Tickets bot integrations.
-
-Please use the sidebar to navigate this chapter.
+Use the sidebar to navigate this chapter.
