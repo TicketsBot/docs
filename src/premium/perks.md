@@ -11,6 +11,7 @@
 | Message Footer Branding Removal | - | X | X | X |
 | Access to Statistics | - | X | X | X |
 | Access to Autoclose | - | - | X | X |
+| Exit Surveys | - | - | X | X |
 | Customise Embed Colour | - | - | X | X |
 | Live Message Updates on the Dashboard | - | - | X | X |
 | Send Messages Directly from the Dashboard | - | - | X | X |
