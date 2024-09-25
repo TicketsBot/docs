@@ -7,6 +7,7 @@
 |Placeholder|Description |
 |--|--|
 | %user% | Mentions the user |
+| %user_id% | Display the user's numeric ID |
 | %username% | Display the user's name |
 | %ticket_id% | Display the ticket's numeric ID |
 | %open_tickets% | Display the number of open tickets in the server |
