@@ -26,7 +26,7 @@
 | %discord_account_creation_date% | The date and time that the user's Discord account was created |
 | %discord_account_age% | How long ago the user's Discord account was created |
 
-\ Placeholders marked with a * are premium features. Learn more about premium [here](https://ticketsbot.net/premium).
+Placeholders marked with a * are premium features. Learn more about premium [here](https://ticketsbot.net/premium).
 
 ### Integrations
 All integration placeholders are automatically active, you do not have to do anything special apart from include them in your welcome message.
