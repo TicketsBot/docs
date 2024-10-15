@@ -19,7 +19,7 @@ We've created a few different ways in which you can configure the bot:
 
 If you'd prefer to stick to configuring the bot via commands in Discord, there are a few different methods in which you can do so:
 - `/setup auto` will automatically create roles, channels, and everything else you need (excluding reaction panels) without any interaction required from you. This is okay for simple usecases, but you'll likely want to configure the options yourself.
-- **Individual Settings**: Run commands such as `/setup category` and `/setup welcomemessage` to change individual settings one by one.
+- **Individual Settings**: Run commands such as `/setup limit` and `/setup use-threads` to change individual settings one by one.
 
 We have guides on each of the available methods:
 - [Web Dashboard](./dashboard.md) **[Recommended]**
