@@ -55,4 +55,3 @@ When using [multi-panels](./multipanels.md) (different types of tickets combined
 - Currently only supports text input type - no radio buttons, or checkboxes
 - Form Labels have a max length of 45 characters
 - Form Placeholders have a max length of 100 characters
-- 
