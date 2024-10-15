@@ -23,6 +23,7 @@
 | /switchpanel (to_panel) | Switches the current ticket to another ticket panel - changing the channel category, support teams, etc |
 | /transfer (user) | Transfers a claimed ticket to another user |
 | /unclaim | Removes the claim on the current ticket |
+| /notes | Creates a private thread for staff to talk in, only works in channel mode |
 
 | Setting Commands | Description |
 | -- | -- |  
