@@ -94,6 +94,7 @@ Flipping the `Use Embed` toggle to green will display some more sections:
   Additional fields can be added to the embed. Think of these as sections. The field name will appear in bold (as a title to the section), and the Field Value is the text within the section.
 
 ![Tags full example](../img/tags_message_full_example.webp)
+
 *Example tag embed with Fields not inline*
 
  - **Field Name**
@@ -107,6 +108,7 @@ Flipping the `Use Embed` toggle to green will display some more sections:
     This is the description section of the new field that will appear in the embed.
 
 ![Tags full example with inline fields](../img/tags_message_inline.webp)
+
 *Example tag embed with Fields inline*
 
 ## Using a Tag
