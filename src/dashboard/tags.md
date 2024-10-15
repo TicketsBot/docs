@@ -91,11 +91,10 @@ Flipping the `Use Embed` toggle to green will display some more sections:
     Choose a date here, it will display **after the Footer Text**.
 
 ### Fields
-  Adiitional fields can be added to the embed. Think of these as sections. The field name will appear in bold (as a title to the section), and the Field Value is the text within the section.
+  Additional fields can be added to the embed. Think of these as sections. The field name will appear in bold (as a title to the section), and the Field Value is the text within the section.
 
-| ![Tags full example](../img/tags_message_full_example.webp) |
-|: -- :|
-| example tag embed with Fields not inline |
+![Tags full example](../img/tags_message_full_example.webp)
+*Example tag embed with Fields not inline*
 
  - **Field Name**
     This is the title of the new field section that will appear in the embed. It will display in bold.
@@ -107,9 +106,8 @@ Flipping the `Use Embed` toggle to green will display some more sections:
  - **Field Value**
     This is the description section of the new field that will appear in the embed.
 
-| ![Tags full example with inline fields](../img/tags_message_inline.webp) |
-|: -- :|
-| example tag embed with Fields inline |
+![Tags full example with inline fields](../img/tags_message_inline.webp)
+*Example tag embed with Fields inline*
 
 ## Using a Tag
 Within Discord, use the `/tag` command by typing `/tag` and selecting the tag ID from menu, or type the full `/tag [tagname]`  
