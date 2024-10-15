@@ -14,4 +14,4 @@
 [docs.ticketsbot.net](https://docs.ticketsbot.net/)
 
 ### Discord Support Server
-[tickets bot support](https://discord.gg/VtV3rSk)
+[Support Server](https://discord.gg/VtV3rSk)
