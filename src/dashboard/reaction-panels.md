@@ -6,7 +6,7 @@
 ## Creating A Panel
 In order to create a reaction panel, head over to the web dashboard and select your server. If unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
-Once on your server's main settings page, select `Reaction Panels` in the top navigation bar to be taken to the reaction panel configuration page which looks as follows:
+Once on your server's main settings page, select `Ticket Panels` in the top navigation bar to be taken to the reaction panel configuration page which looks as follows:
 
 ![Reaction panel page](../img/panels_navbar.webp)
 
