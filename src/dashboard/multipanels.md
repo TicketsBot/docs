@@ -14,7 +14,7 @@ Once on your server's main settings page, select `Reaction Panels` in the naviga
 
 You'll want to focus on the *right* side of the screen. The left side are settings for individual panels (known as [Reaction Panels](../dashboard/reaction-panels.md).)
 
-Draw your attention to the `Create Multi-Panel` card. You'll configure the panel's appearance here:
+Draw your attention to the `New Multi-Panel` card. You'll configure the panel's appearance here:
 
 ![Multipanel card](../img/multipanel_card.webp)
 
