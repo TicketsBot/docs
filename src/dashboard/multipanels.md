@@ -8,13 +8,13 @@ Multi-panels are the combination of 2 or more Reaction Panels in a single embed:
 ## Creating A Multi-panel
 In order to create a multi-panel, you'll need to head over to the web dashboard and select your server. If you're unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
-Once on your server's main settings page, select `Reaction Panels` in the top navigation bar and you'll be taken to the reaction panel configuration page which looks as follows:
+Once on your server's main settings page, select `Reaction Panels` in the navigation bar and you'll be taken to the reaction panel configuration page which looks as follows:
 
 ![Reaction panel page](../img/panels_navbar.webp)
 
 You'll want to focus on the *right* side of the screen. The left side are settings for individual panels (known as [Reaction Panels](../dashboard/reaction-panels.md).)
 
-Draw your attention to the `Create Multi-Panel` card. You'll configure the panel's appearance here:
+Draw your attention to the `New Multi-Panel` card. You'll configure the panel's appearance here:
 
 ![Multipanel card](../img/multipanel_card.webp)
 

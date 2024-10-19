@@ -23,6 +23,7 @@
 | /switchpanel (to_panel) | Switches the current ticket to another ticket panel - changing the channel category, support teams, etc |
 | /transfer (user) | Transfers a claimed ticket to another user |
 | /unclaim | Removes the claim on the current ticket |
+| /notes | Creates a private thread for staff to talk in, only works in channel mode |
 
 | Setting Commands | Description |
 | -- | -- |  
@@ -37,11 +38,9 @@
 | /removeadmin (user_or_role) | Revokes a user's or role's admin priveledges |
 | /removesupport (user_or_role) | Revokes a user's or role's support representative priviledges |
 | /setup auto | Bot will make a very basic configuration (no reaction panels - you'll still want to customize on dashboard) |
-| /setup prefix | Change the prefix used for non slash commands (default is `t!`) **NOTE:** Prefix commands are no longer supported, must use slash commands |
-| /setup welcomemessage | Change the overall welcome message |
 | /setup limit | Change the quantity of tickets a single user can have open at the same time |
 | /setup transcripts | Change the transcripts channel |
-| /setup category | Change the category of where tickets will open when using the /open command |
+| /setup use-threads | Toggle if the bot creates new threads or new channels |
 | /viewstaff | Lists the staff members and roles (admin or support) |
 
 | Tag Commands | Description |

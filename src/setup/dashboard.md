@@ -17,7 +17,7 @@ You'll first want to pay attention to the main **Settings** card. Here you can e
 
 ## Prefix
 
-> **Note:** prefix commands are no longer active! Tickets bot works solely on slash commands!
+> **Note:** Prefix commands are no longer used! Tickets bot works solely on slash commands!
 
 ## Ticket Limit
 

@@ -1,11 +1,9 @@
 # Language Customisation
 ***
 
-Tickets is highly accessible, supporting over 20 languages at the time of writing.
+Tickets is highly accessible, supporting over 30 languages at the time of writing.
 
-Use the `/language` command with a 2 digit country code to switch your server's language (e.g. `/language de`.)
-
-If an invalid country code is entered, a list of languages, along with their translation progress will be presented:
+Use the `/language` command and a embedded message with all supported languages will appear, select the language you want from one of the dropdowns below the message
 
 ![Language list](../img/languages.webp)
 

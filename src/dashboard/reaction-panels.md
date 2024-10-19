@@ -6,13 +6,13 @@
 ## Creating A Panel
 In order to create a reaction panel, head over to the web dashboard and select your server. If unfamiliar with how to do that, read our [guide on the web dashboard here](../setup/dashboard.md).
 
-Once on your server's main settings page, select `Reaction Panels` in the top navigation bar to be taken to the reaction panel configuration page which looks as follows:
+Once on your server's main settings page, select `Ticket Panels` in the navigation bar to be taken to the ticket panel configuration page which looks as follows:
 
 ![Reaction panel page](../img/panels_navbar.webp)
 
 Focus on the _left_ side of the screen. The right side are settings for combining different panels into a single message.
 
-Draw your attention to the `Create Panel` card. Configure the panel's appearance here:
+Draw your attention to the `New Panel` card. Configure the panel's appearance here:
 
 ![Panel card](../img/panel_card.webp)
 
