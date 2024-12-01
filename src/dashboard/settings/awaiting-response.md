@@ -1,7 +1,10 @@
-# Awaiting Your Response
+# Awaiting User Response
 ***
 
 You can now set a category for ticket channels which are awaiting the user's response to be moved to. This feature is highly useful for being able to tell which tickets require a response from staff members, and reduces clutter in your ticket categories.
+
+> **Note:** Channel mode only. Discord does not allow threads to be moved. For more differences between the two modes, click [here](./thread-mode.md#channel-vs-thread-comparison).
+
 
 ![Awaiting response](../../img/awaiting_response.webp)
 
