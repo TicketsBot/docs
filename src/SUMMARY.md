@@ -22,7 +22,11 @@
     - [Placeholders](./dashboard/settings/placeholders.md)
     - [Start Ticket From Message](./dashboard/settings/start-ticket-from-message.md)
     - [Claiming Tickets](./dashboard/settings/claiming.md)
+<<<<<<< HEAD
     - [Awaiting User Response](./dashbaord/settings/awaiting-response.md)
+=======
+    - [Awaiting User Response](./dashboard/settings/awaiting-response.md)
+>>>>>>> docs/master
   - [Transcripts](./dashboard/transcripts.md)
   - [Panels](./dashboard/reaction-panels.md)
     - [Multi-Panels](./dashboard/multipanels.md)
