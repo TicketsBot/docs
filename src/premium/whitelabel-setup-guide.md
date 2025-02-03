@@ -26,7 +26,7 @@ From here, you can change your bot's avatar:
 ## (Step 3 of 6) Tweak Settings
 Next, we need to edit some very important settings.
 
-Switch to the `Bot` tab in the sidebar, press `Add Bot` and confirm:
+Switch to the `Bot` tab in the sidebar:
 
 ![Create Bot](/img/whitelabel/create_bot.webp)
 
